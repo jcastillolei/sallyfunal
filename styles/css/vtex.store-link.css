@@ -1,0 +1,25 @@
+.buttonLink--btn-registro-prof{
+    background: #F75454;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Share Tech',sans-serif;
+    border: none;
+    font-weight: bold;
+    align-content: center;
+    margin-left: 30%;
+}
+.buttonLink--btn-registro-prof:hover{
+    background: rgb(134, 134, 134);
+}
+@media (max-width: 990px){
+    .buttonLink--btn-registro-prof{
+        background: #F75454;
+        color: white;
+        border-radius: 50px;
+        font-family: 'Share Tech',sans-serif;
+        border: none;
+        font-weight: bold;
+        align-content: center;
+        margin-left: 20%;
+    }
+}

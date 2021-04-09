@@ -1,9 +1,12 @@
 {
   "store.custom#profesionalesform": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
     "blocks": [
       "rich-text#titulo-cotizacion-prof",
-      "flex-layout.row#formProfesionales",
-      "flex-layout.row#deals"
+      "flex-layout.row#formProfesionales"
     ]
   },
 
