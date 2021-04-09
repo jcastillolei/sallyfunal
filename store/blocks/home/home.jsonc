@@ -11,7 +11,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "rich-text#shelf-title2",
-      "flex-layout.row#shelf",
+      "flex-layout.row#shelf2",
       "newsletter",
       "flex-layout.row#deals"
     ],
@@ -420,6 +420,30 @@
       "blockClass": "shelf"
     }
   },
+
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#demo2"]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo2-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo2-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
   "info-card#cabello": {
     "props": {
       "id": "info-card-cabello",
