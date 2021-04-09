@@ -1,0 +1,78 @@
+{
+  "store.custom#profesionalesform": {
+    "blocks": [
+      "rich-text#titulo-cotizacion-prof",
+      "flex-layout.row#formProfesionales",
+      "flex-layout.row#deals"
+    ]
+  },
+
+  "flex-layout.row#formProfesionales": {
+    "children": [
+      "flex-layout.col#textformProf",
+      "flex-layout.col#formProf"
+    ],
+    "props":{
+      "blockClass": "login-form"
+    }
+  },
+  "flex-layout.col#textformProf": {
+    "children": [
+        "flex-layout.row#texto-form"
+    ],
+    "props": {
+        "width": "50%",
+        "marginLeft": 40,
+        "blockClass": "login-form-left"
+     }
+  },
+  "flex-layout.col#formProf": {
+    "children": [
+      "form#prof"
+    ],
+    "props": {
+      "width": "50%",
+      "blockClass": "form-register"
+    }
+  },
+  "form#prof": {
+    "props": {
+      "entity": "Profesionales",
+      "schema": "Profesionales"
+    }
+  },
+
+  "rich-text#titulo-cotizacion-prof": {
+    "props": {
+      "text": "FORMULARIO PROFESIONALES",
+      "blockClass": "shelfTitle-prof"
+    }
+  },
+  "flex-layout.row#texto-form": {
+    "children": [
+      "flex-layout.col#text-login-left"
+    ]
+  },
+  "flex-layout.col#text-login-left": {
+    "children": [
+      "rich-text#title-login",
+      "rich-text#content-login"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-login": {
+    "props":{
+      "text": "Bienvenido a SallyBeautyB2B",
+      "font": "t-heading-1",
+      "blockClass": "title-text-login"
+    }
+  }, 
+  "rich-text#content-login": {
+    "props": {
+      "text": "Únete a SALLY BEAUTY PROFESIONAL y disfruta de todos los beneficios que tenemos para ti.\nEl mayor surtido de productos profesionales de las mejores marcas.\nENVÍOS A TODO CHILE\nDespachamos a todo el país, Región Metropolitana en 48hs.\nBENEFICIOS EXCLUSIVOS\nSiendo parte de SALLY BEAUTY PROFESIONAL recibirás las mejores ofertas, descuentos, capacitaciones y otros beneficios exclusivos.",
+      "blockClass": "content-login-left"
+    }
+  }
+}

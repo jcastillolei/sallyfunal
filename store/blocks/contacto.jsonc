@@ -1,0 +1,8 @@
+{
+    "store.custom#contacto": {
+      "children": [
+        "flex-layout.row#contact-us"
+      ]
+    }
+  }
+  

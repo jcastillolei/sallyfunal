@@ -1,0 +1,221 @@
+{
+    "store.custom#terminos": {
+      "blocks": [
+        "rich-text#titulo-terminos",
+        "flex-layout.row#terminosycondiciones",
+        "newsletter",
+        "flex-layout.row#deals"
+      ]
+    },
+    "rich-text#titulo-terminos": {
+        "props": {
+            "text": "#### TÉRMINOS Y CONDICIONES",
+            "blockClass": "titulo-sobre"
+        }
+    },
+
+    "flex-layout.row#terminosycondiciones": {
+        "props": {
+          "blockClass": "textColumn"
+        },
+        "children": [
+            "flex-layout.col#texto-terminos"
+        ]
+    },
+    
+    "flex-layout.col#texto-terminos": {
+        "children": [
+            "rich-text#titulo-term-primero",
+            "rich-text#termino-primero",
+            "product-separator",
+            "rich-text#titulo-term-segundo",
+            "rich-text#termino-segundo",
+            "product-separator",
+            "rich-text#titulo-term-tercero",
+            "rich-text#termino-tercero",
+            "product-separator",
+            "rich-text#titulo-term-cuarto",
+            "rich-text#termino-cuarto",
+            "product-separator",
+            "rich-text#titulo-term-quinto",
+            "rich-text#termino-quinto",
+            "product-separator",
+            "rich-text#titulo-term-sexto",
+            "rich-text#termino-sexto",
+            "product-separator",
+            "rich-text#titulo-term-septimo",
+            "rich-text#termino-septimo",
+            "product-separator",
+            "rich-text#titulo-term-octavo",
+            "rich-text#termino-octavo",
+            "product-separator",
+            "rich-text#titulo-term-noveno",
+            "rich-text#termino-noveno",
+            "product-separator",
+            "rich-text#titulo-term-decimo",
+            "rich-text#termino-decimo",
+            "product-separator",
+            "rich-text#titulo-term-onceavo",
+            "rich-text#termino-onceavo",
+            "product-separator",
+            "rich-text#titulo-term-doceavo",
+            "rich-text#termino-doceavo"
+        ]
+    },
+
+    "rich-text#titulo-term-primero": {
+        "props": {
+            "text": "###### PRIMERO: GENERALIDADES",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-primero": {
+        "props": {
+            "text": "Este documento regula los términos y condiciones bajo los cuales Ud. tiene derecho a acceder y usar los servicios del sitio Web www.sallybeauty.cl y de cualquier información, texto, video u otro material comunicado en el sitio web.\n\nEn este sitio Web podrá usar, sin costo, el software y las aplicaciones para equipos móviles que le permitan navegar, visitar, comparar y si lo desea, adquirir los bienes que se exhiben aquí.\n\nLe recomendamos que lea detenidamente estas Condiciones e imprima o guarde una copia de estas en la unidad de disco local para su información.\n\nEstos Términos y Condiciones serán aplicados y se entenderán incorporados en cada uno de los contratos que celebre con Sally Chile Holding SPA, RUT: 76.066.983-0, en adelante “Sally Beauty” por medio de este sitio web.\n\nEl uso de este sitio web, la aplicación de estos Términos y Condiciones, los actos que ejecute y los contratos que celebre por medio de este sitio web, se encuentran sujetos y sometidos a las leyes de la República de Chile y en especial a la ley 19.496 de protección de los derechos de los consumidores.\n\nSally Beauty, por lo tanto, aplicará estrictamente todos los beneficios, garantías y derechos reconocidos en favor de los consumidores en la ley 19.496.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-segundo": {
+        "props": {
+            "text": "###### SEGUNDO: GENERALIDADES",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-segundo": {
+        "props": {
+            "text": "Para la comunicación de cualquier presentación, consulta o reclamo a propósito del uso de este sitio, Sally Beauty designa como representante especial a doña Romina Mitar, gerente de ecommerce, disponible en el correo rmitar@sallybeauty.com y en el teléfono de Servicio al Cliente 222415703 o al ( 56 9) 34566642, domiciliada para estos efectos en Avenida Presidente Kennedy N° 7.600, oficina 803, Vitacura, Santiago, Región Metropolitana.\n\nSally Beauty se obliga a que, en caso de enviarle información publicitaria o promocional, por correo electrónico, ésta contendrá la siguiente información:\n\n 1. Identificación del mensaje, que lo haga reconocible como publicidad o comunicación promocional, en el campo de asunto del mensaje.\n\n 2. Existencia del derecho del consumidor o usuario a solicitar el cese de envíos de publicidad de ese tipo por Sally Beauty y la obligación de Sally Beauty de suspender esos envíos.\n\n 3. Un procedimiento simple y eficaz para que Usted pueda hacer dicha solicitud a ecommercechile@sallybeauty.com\n\n 4. La Identificación del anunciante con su denominación comercial.\n\nTratándose de publicidad teaser, se cumplirá con las obligaciones señaladas precedentemente en la medida que se identifique la agencia que realiza la misma.\n\nSally Beauty cesará el envío de los mensajes publicitarios o promocionales por correo electrónico u otros medios de comunicación individual equivalentes, a toda persona que hubiere solicitado expresamente la suspensión de esos envíos.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-tercero": {
+        "props": {
+            "text": "###### TERCERO: LIBERTAD DE NAVEGACIÓN y ACEPTACIÓN DE LOS TÉRMINOS Y CONDICIONES",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-tercero": {
+        "props": {
+            "text": "La mera visita de este sitio no impone ningún tipo de obligación para el usuario, a menos que éste exprese de forma inequívoca, por medio de actos positivos, su voluntad de contratar con la empresa para adquirir bienes, en la forma indicada en estos términos y condiciones.\n\nPara aceptar estos Términos y Condiciones, el usuario deberá hacer click donde el sitio web de Sally Beauty ofrezca esta opción en la interfaz del usuario con la frase “he leído y aceptado” que permita dar su consentimiento inequívoco respecto de la aceptación.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-cuarto": {
+        "props": {
+            "text": "###### CUARTO: REGISTRO",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-cuarto": {
+        "props": {
+            "text": "El registro en el sitio y el uso de contraseña no es requisito obligatorio para contratar, sin embargo, facilita el acceso personalizado, confidencial y seguro al sitio.\n\nEn caso de registrarse en el sitio, el usuario contará con una contraseña secreta de la cual podrá disponer e incluso modificar si así lo requiriera el usuario. Para activar la contraseña deberá completar el formulario de registro disponible en el sitio y enviarlo a Sally Beauty haciendo click en el campo respectivo.\n\nRespecto de la confidencialidad de la contraseña serán responsables el usuario y el administrador dentro del ámbito que a cada uno corresponda.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-quinto": {
+        "props": {
+            "text": "###### QUINTO: CÓMO CONTRATAR",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-quinto": {
+        "props": {
+            "text": "Para hacer compras en este sitio deberá seguir los siguientes pasos haciendo click en el campo correspondiente:\n\n 1. Para iniciar el proceso de contratación es necesario que confirme haber leído y aceptado estos Términos y Condiciones.\n\n 2. Seleccione el o los productos que le interesa y agréguelos a su “carro de compra”.\n\n 3. Inicie sesión en el sitio o Ingresa tu correo electrónico y tu contraseña. Y, en caso de no estar registrado y desea hacerlo, utilice el ícono “registra tu contraseña”.\n\n 4. Seleccione el tipo de despacho y entrega entre las alternativas disponibles en el sitio, en caso de no haber alternativas disponibles siga las instrucciones para la entrega de acuerdo a lo señalado en el sitio\n\n 5. Seleccione el medio de pago.\n\n 6. Una vez hecha la orden, se desplegará en la pantalla:\n\n  a. una descripción del producto contratado.\n\n  b. Precio.\n\n  c. Indicaciones de costo de envío si corresponde\n\n  d. Fecha de entrega según el tipo de despacho escogido\n\n  e. Medio de pago\n\n  f. Valor total de la operación\n\n  g. Demás condiciones de la orden\n\n  h. Posibilidad de imprimir y almacenar la orden\n\n  i. También, un número único de la orden, con la cual se podrá hacer seguimiento en línea de ella.\n\n 7. Envío de la información al correo electrónico registrado.\n\n 8. La orden luego pasará automáticamente a un proceso de confirmación de identidad, resguardándose siempre la seguridad y privacidad del usuario y del proceso de contratación, disponibilidad, vigencia y cupo del medio de pago que se haya seleccionado.\n\n 9. Cumplido con lo anterior se perfecciona el contrato haciéndose el cargo en el medio de pago seleccionado, se enviará el comprobante de compra en formato electrónico y será despachado el producto junto con la boleta o factura (según corresponda), de acuerdo con el modo de entrega que se hubiera seleccionado.\n\n 10. No se verá afectado el comprador en sus derechos ni tampoco se le efectuarán cargos, sin que sea confirmada su identidad.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-sexto": {
+        "props": {
+            "text": "###### SEXTO: MEDIOS DE PAGO",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-sexto": {
+        "props": {
+            "text": "Salvo que se señale un medio diferente para casos u ofertas específicos, los productos que se informan en este sitio sólo podrán ser pagados por medio de:\n\nTarjeta de crédito bancaria Visa, Mastercard o American Express, emitidas en Chile o en el extranjero, siempre que mantengan un contacto vigente para este efecto con Sally Beauty.\n\nTarjetas de débito bancarias acogidas al sistema Redcompra, emitidas en Chile por bancos nacionales, que mantengan un contrato vigente para tales efectos con Sally Beauty.\n\nEl pago con tarjetas de débito se realizará a través de WebPay, que es un sistema de pago electrónico que se encarga de hacer el cargo automático a la cuenta bancaria del usuario.\n\nLos usuarios declaran que entienden que estos medios de pago o portales de pago pertenecen a terceras empresas proveedoras de estos servicios, independientes y no vinculadas a Sally Beauty, por lo que la continuidad de su prestación de servicios en el tiempo, así como el correcto funcionamiento de sus herramientas y botones de pago en línea, será de exclusiva responsabilidad de la empresa proveedoras de estos servicios y en ningún caso de Sally Beauty.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-septimo": {
+        "props": {
+            "text": "###### SÉPTIMO: DERECHOS y GARANTÍAS",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-septimo": {
+        "props": {
+            "text": "Cambios y devoluciones\n\nPara Sally Beauty es muy importante que te sientas satisfecho con tu compra. Por eso, todas las compras realizadas en www.sallybeauty.cl están sujetas a la siguiente Política de Cambios y devoluciones.\n\nCambios:\n\nSi el producto comprado no lo satisface, este puede ser cambiado sin problemas hasta 30 días después de la fecha en que este haya sido recibido, en cualquier sucursal de SallyBeauty, o bien entregar el producto en una sucursal de Chilexpress, previa coordinación con el área de atención al cliente de e-commerce.\n\nDevoluciones:\n\nSi el producto comprado no lo satisface, este puede ser devuelto sin problemas hasta 10 días después de la fecha en que este haya sido recibido, mediante la entrega del producto en una sucursal de Chilexpress, previa coordinación con el área de atención al cliente de e-commerce.\n\nPara poder hacer cambio o devolución es necesario que el producto esté sin uso, con todos sus accesorios, embalajes originales.\n\nAdemás, atendiendo la naturaleza de los productos, en las siguientes categorías es necesario que estos no hayan sido abiertos y que conserven su sellado y embalaje original.\n\nPara cambio o devolución deberá presentarse la boleta, guía de despacho, ticket de cambio, u otro comprobante de compra.\n\nEsta garantía no aplica a los siguientes productos.\n\n - Tijeras\n\n - Esmaltes de Uñas\n\n - Pinzas\n\n - Cepillos\n\n - Peinetas\n\n - Limas\n\n - Corta cutículas Corta Uñas\n\n - Brochas de Maquillaje\n\n - Maquillaje\n\n - Pestañas Postizas\n\nEn caso de devolución de dinero la empresa realizará un abono en el medio de pago que haya utilizado o por transferencia bancaria en un período no superior a 10 días hábiles de haberse aceptado la devolución, cuestión que será informada a través del correo electrónico que se hubiere registrado.\n\nDerecho de Retracto.\n\nSally Beauty no contempla el derecho a retracto respecto de productos efectivamente pagados.\n\nGarantías Legales\n\nPara hacer uso de la Garantía Legal, en caso de falla o defecto del producto se debe solicitar el cambio, devolución o reparación gratuita del producto dentro de los 3 meses posteriores a la compra según la fecha de la boleta o el ticket de cambio respectivo, siempre que el producto no se hubiere deteriorado por un hecho imputable al consumidor (Art 21, Ley 19.496). Si el producto cuenta con una garantía del fabricante, se aplicará el plazo de esa garantía si dicho plazo fuera mayor. Todos estos plazos se suspenderán por el plazo en que el bien esté siendo reparado en ejercicio de su garantía, y hasta que se complete su reparación. Además, debes presentar la boleta o ticket de cambio y tener los embalajes originales, accesorios, manuales y pólizas de garantía.\n\nSe considerará que hay falla o defecto: a) Si los productos sujetos a normas de seguridad o calidad de cumplimiento obligatorio no cumplan las especificaciones correspondientes; b) Cuando los materiales, partes, piezas, elementos, sustancias o ingredientes que constituyan o integren los productos no correspondan a las especificaciones que ostenten o las menciones del rotulado: c) Cuando cualquier producto, por deficiencias de fabricación, elaboración, materiales, partes, piezas, elementos, sustancias, ingredientes, estructura, calidad o condiciones sanitarias, en su caso, no sea enteramente apto para el uso o consumo al que está destinado o al que el proveedor hubiese señalado en su publicidad; d) Cuando el proveedor y consumidor hubieren convenido que los productos objeto del contrato deban reunir determinadas especificaciones y esto no ocurra; e) Cuando después de la primera vez de haberse hecho efectiva la garantía y prestado el servicio técnico correspondiente, subsistieren las deficiencias que hagan al bien inapto para el uso o consumo a que se refiere la letra c). Este derecho subsistirá para el evento de presentarse una deficiencia distinta a la que fue objeto del servicio técnico, o volviere a presentarse la misma, dentro de los plazos legales; f) Cuando la cosa objeto del contrato tenga defectos o vicios ocultos que imposibiliten el uso a que habitualmente se destine. Para estos efectos se considerará que es un solo bien aquel que se ha vendido como un todo, aunque este conformado por distintas unidades, partes o piezas o módulos, no obstante que éstas puedan o no prestar una utilidad en forma independiente unas de otras. Sin perjuicio de ello, tratándose de su reposición, ésta se podrá efectuar respecto de una unidad, parte, pieza o módulo, siempre que sea por otra igual a la que se restituye.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-octavo": {
+        "props": {
+            "text": "###### OCTAVO: ENTREGA DE PRODUCTOS",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-octavo": {
+        "props": {
+            "text": "Despacho de Productos\n\nLas condiciones de despacho y entrega de los productos adquiridos podrán ser escogidas de entre las opciones ofrecidas en el sitio.\n\nCompra Online retira en tienda\n\nSi elige retirar el producto en una tienda, podrá hacerlo en el horario en que ésta se encuentre abierta al público. En caso de elegir otro punto de retiro, deberá guiarse por lo horarios indicados en la opción seleccionada.\n\nLos retiros deberán ser hechos dentro de un plazo de 10 días hábiles. Por medio del correo electrónico registrado se informará que el producto está a disposición y el plazo para ser retirado. Si el producto no fuera retirado dentro del plazo especificado, la transacción quedará sin efecto, haciéndose la devolución de la cantidad pagada.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-noveno": {
+        "props": {
+            "text": "###### NOVENO: RESPONSABILIDAD",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-noveno": {
+        "props": {
+            "text": "En ningún caso Sally Beauty responderá por:\n\n 1. La utilización indebida que Usuarios o visitantes de El Sitio puedan hacer de los materiales exhibidos, de los derechos de propiedad industrial y de los derechos de propiedad intelectual.\n\n 2. Daños o eventuales daños y perjuicios que se le puedan causar a los Compradores y/o Usuarios por el funcionamiento de las herramientas de búsqueda y de los errores que se generen por los elementos técnicos de El Sitio o motor de búsqueda.\n\n 3. Contenidos de las páginas a las que los Compradores o Usuarios puedan acceder con o sin autorización de Sally Beauty.\n\n 4. El acceso de menores de edad o personas sin capacidad, bajo los términos de la legislación correspondiente, a los contenidos adherentes a la relación contractual que surja de El Sitio.\n\n 5. Pérdida, mal uso o uso no autorizado de su código de validación, ya sea por parte del Usuario y/ o comprador Compradores, o de terceros, luego de realizada la compra en la forma expresada en los Términos y Condiciones. Asimismo, las partes reconocen y dejan constancia que la plataforma computacional proporcionada por Sally Beauty no es infalible, y, por tanto, durante la vigencia del presente Contrato pueden verificarse circunstancias ajenas a la voluntad de Sally Beauty, que impliquen que El Sitio o la plataforma computacional no se encuentren operativos durante un determinado periodo de tiempo.\n\n 6. Información de Sally Beauty que se encuentre en sitios distintos a www.sallybeauty.cl.\n\nEn tales casos, Sally Beauty procurará restablecer El Sitio y el sistema computacional con la mayor celeridad posible, sin que por ello pueda imputársele algún tipo de responsabilidad.\n\nSally Beauty no garantiza la disponibilidad y continuidad del funcionamiento de El Sitio y tampoco que, en cualquier momento y tiempo, los Usuarios puedan acceder a las promociones y Ofertas del El Sitio.\n\nSally Beauty no se hace responsable por los virus ni otros elementos en los documentos electrónicos almacenados en los sistemas informáticos de los Usuarios. Sally Beauty no responderá de los perjuicios ocasionados al Cliente, provenientes del uso inadecuado de las tecnologías puestas a disposición de éste, cualquiera sea la forma en la cual se utilicen inadecuadamente estas tecnologías. Sally Beauty no responderá de los daños producidos a El Sitio por el uso indebido y de mala fe de los Usuarios y/o Compradores. No obstante, en el evento de realizarse un doble pago por un Usuario o Comprador en El Sitio, Sally Beauty devolverá la suma del sobrepago, dentro de los 10 días siguientes a la recepción del respectivo reclamo escrito del Usuario o Comprador, en el que se anexen los originales de los comprobantes del pago adicional a lo adquirido.\n\nEn Login, registro y comunicación con empresas de medios de pago, Sally Beauty usa certificados digitales de seguridad (SSL), con el fin de encriptar comunicación. Sally Beauty no manipula ni almacena datos financieros de sus clientes.\n\nEn todo caso, la responsabilidad de Sally Beauty, contractual, extracontractual o legal, con los Usuarios, Compradores o visitantes de El Sitio no excederá del precio efectivamente pagado por el Comprador en contraprestación por el producto o servicio, sin perjuicio de lo que determinen los Tribunales de Justicia.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-decimo": {
+        "props": {
+            "text": "###### DÉCIMO: SEGURIDAD DE DATOS Y CLAVE SECRETA",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-decimo": {
+        "props": {
+            "text": "Responsabilidad de los Usuarios respecto de la información registrada en el sitio\n\nSally Beauty adoptará las medidas necesarias y prudentes para resguardar la seguridad de los datos y clave secreta, como sistemas de encriptación de información, certificados de seguridad u otros que la empresa estime pertinente. En caso de detectarse cambios en la información que hayas registrado en el sitio, o bien, ante cualquier irregularidad en las transacciones relacionadas con su identificación o la del medio de pago, o simplemente como medida de protección a su identidad, nuestros ejecutivos podrán contactarlo por vía telefónica o correo electrónico, a fin de corroborar sus datos e intentar evitar posibles fraudes.\n\nEn caso de no poder establecer el contacto en un plazo de 72 hrs, por su propia seguridad, su orden de compra efectuada en nuestro sitio no podrá ser confirmada. Le informaremos vía telefónica o por correo electrónico que su orden ha quedado sin efecto por no poder confirmar su identidad o el medio de pago ofrecido. Además, los comprobantes de las gestiones realizadas para contactarte y poder confirmar la operación, estarán disponibles en nuestras oficinas durante 30 días, para que puedas confirmar la orden de compra. Cualquier consulta puede ser efectuada a ecommerce-chile@sallybeauty.com\n\nSin embargo, los Usuarios y/o Compradores son exclusivamente responsables por la pérdida, mal uso o uso no autorizado del código de validación, ya sea por parte de los mismos o de terceros, luego de realizada la compra en la forma expresada en los Términos y Condiciones.\n\nDatos personales:\n\nLos Usuarios y/o Compradores garantizan que la información que suministran para la celebración del contrato es veraz, completa, exacta y actualizada.\n\nDe conformidad con la Ley 19.628 los datos personales que suministren en el Sitio Web pasarán a formar parte de una base de datos de Sally Beauty y serán destinados única y exclusivamente en para ser utilizados en los fines que motivaron su entrega y especialmente para la comunicación en general entre la empresa y sus clientes, validar los datos de la compra, concretar el despacho y responder sus consultas. Los datos no serán comunicados a otras empresas sin la expresa autorización de su titular ni serán transferidos internacionalmente.\n\nSally Beauty presume que los datos han sido incorporados por su titular o por persona autorizada por éste, así como que son correctos y exactos. Los Usuarios y/o Compradores con la aceptación de los presentes Términos y Condiciones manifiestan que los datos de carácter personal que aporte a través de los formularios online en la página web de Sally Beauty pueden ser utilizados para Ofertas posteriores y distintas a las ofrecidas en El Sitio.\n\nSin perjuicio de lo anterior, Sally Beauty garantiza a los usuarios el libre ejercicio de sus derechos de información, modificación, cancelación y bloqueo de sus datos personales establecidos en la Ley 19.628. Por consiguiente, los compradores podrán realizar requerimientos que digan relación con dichos derechos, y en un plazo máximo de tres días corridos, Sally Beauty deberá dar respuesta e implementar efectivamente esta solicitud.\n\nDocumentos Electrónicos:\n\nEl usuario en su calidad de receptor manual de documentos electrónicos, de conformidad con la Resolución Exenta N° 11 del 14 de febrero de 2003 del Servicio de Impuestos Internos (que estableció el procedimiento para que contribuyentes autorizados para emitir documentos electrónicos puedan también enviarlos por estos medios a receptores manuales), declara y acepta lo siguiente:\n\nAl aprobar estos términos y condiciones, el usuario autoriza a la empresa Sally Chile Holding SPA, Rut 76.066.983-0, para que el documento tributario correspondiente de esta transacción, le sea entregada solamente por un medio electrónico. De igual forma, autoriza que el aviso de publicación del documento tributario me enviado mediante correo electrónico.\n\nDe conformidad con la normativa indicada, y en caso de que el usuario lo requiera para respaldar la información contable, asume en relación con dichos documentos tributarios, las siguientes obligaciones:\n\n 1. Imprimir los documentos recibidos en forma electrónica, para cada período tributario, en forma inmediata a su recepción desde el emisor.;\n\n 2. Imprimir el documento en el tamaño y forma que fue generado;\n\n 3. Utilizar papel blanco tipo original de tamaño mínimo 21,5 cm x 14 cm (1/2 carta) y de tamaño máximo 21,5 x 33 cm (oficio);\n\n 4. Imprimir en una calidad que asegure la permanencia de la legibilidad del documento durante un periodo mínimo de seis años, conforme lo establece la legislación vigente sobre la materia. Esta impresión se hará hecha usando impresión láser o de inyección de tinta, excepto que se establezca una autorización o norma distinta al respecto.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-onceavo": {
+        "props": {
+            "text": "###### DÉCIMO PRIMERO: ALCANCE DE LAS CONDICIONES INFORMADAS EN EL SITIO",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-onceavo": {
+        "props": {
+            "text": "Sally Beauty no modificará las condiciones bajo las cuales haya contratado con los consumidores en este sitio. Mientras aparezcan en este sitio, los precios informados estarán a disposición del usuario, aunque no sean los mismos que se ofrezcan en otros canales de venta de Sally Beauty, como tiendas físicas, catálogos, televisión, radio, u otros.\n\nCon todo, los precios son aplicables para la ciudad de entrega o despacho. Si una vez ingresado un producto al carro de compras, es cambiada la dirección de entrega o despacho a una ciudad diferente, cambiará el precio total del producto de acuerdo con los costos de envío a la nueva ciudad registrada.\n\nCualquier cambio en las informaciones publicadas en este sitio, incluyendo las referidas a mercaderías, servicios, precios, existencias y condiciones, promociones y ofertas, tendrá lugar antes de recibir una orden de compra y solo se referirá a operaciones futuras, sin afectar, en caso alguno, derechos adquiridos por los consumidores.\n\nLas promociones que ofrecidas en el sitio no necesariamente serán las mismas que Sally Beauty ofrezca por otros canales de venta. En las promociones que consistan en la entrega gratuita o rebajada de un producto por la compra de otro, el despacho del bien que se entregue gratuitamente o a precio rebajado se hará en el mismo lugar al cual se despacha el producto comprado, salvo que el adquirente solicite, al aceptar la oferta, que los productos se remitan a direcciones distintas, en cuyo caso deberá pagar el valor del despacho de ambos productos. No se podrá participar en estas promociones sin adquirir conjuntamente todos los productos comprendidos en ellas.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-term-doceavo": {
+        "props": {
+            "text": "###### DÉCIMO SEGUNDO: PROPIEDAD INTELECTUAL",
+            "blockClass": "titulo-sobre"
+        }
+    },
+    "rich-text#termino-doceavo": {
+        "props": {
+            "text": "Todos los contenidos incluidos en este sitio, como textos, material gráfico, logotipos, íconos de botones, códigos fuente, imágenes, audio clips, descargas digitales y compilaciones de datos, son propiedad de Sally Beauty o de sus proveedores de contenidos, y están protegidos por las leyes chilenas e internacionales sobre propiedad intelectual. Los materiales gráficos, logotipos, encabezados de páginas, frases publicitarias, iconos de botones, textos escritos y nombres de servicios incluidos en este sitio son marcas comerciales, creaciones o imágenes comerciales de propiedad de Sally Beauty en Chile y en otros países. Dichas marcas, creaciones e imágenes comerciales no se pueden usar con relación a ningún producto o servicio que pueda causar confusión entre los clientes y en ninguna forma que desprestigie o desacredite a Sally Beauty. Las demás marcas comerciales que no sean de propiedad de Sally Beauty y que aparezcan en este sitio pertenecen a sus respectivos dueños.",
+            "blockClass": "textColumn"
+        }
+    }
+}
