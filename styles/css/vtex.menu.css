@@ -1,0 +1,29 @@
+.submenuWrapper{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.styledLinkContainer--top-menu-links{
+    display: none;
+}
+
+.submenu--top-menu-marcas
+.styledLink{
+    color: rgb(54, 54, 54);
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+.submenu--top-menu-marcas
+.styledLink:hover{
+    text-decoration: underline 4px #F75454;
+}
+
+.submenuWrapper--top-menu-marcas--isOpen{
+    z-index: 1000;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30px;
+}
+
+.styledLinkContent--ver-todo{
+    color: #F75454;
+}

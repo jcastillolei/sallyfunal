@@ -1,0 +1,38 @@
+{
+    "store.custom#politicascomerciales": {
+      "blocks": [
+            "rich-text#titulo-politicas",
+            "flex-layout.row#politicas",
+            "flex-layout.row#deals"
+      ]
+    },
+    
+    "rich-text#titulo-politicas": {
+        "props": {
+            "text": "#### POLÍTICA DE PRIVACIDAD SALLY CHILE HOLDING SPA",
+            "blockClass": "titulo-sobre"
+        }
+    },
+
+    "flex-layout.row#politicas": {
+        "props": {
+          "blockClass": "politicascomerciales"
+        },
+        "children": [
+            "flex-layout.col#texto-politicas"
+        ]
+    },
+    
+    "flex-layout.col#texto-politicas": {
+        "children": [
+            "rich-text#text-poli"
+        ]
+    },
+
+    "rich-text#text-poli": {
+        "props": {
+            "text": "En Sally Chile Holding SpA dedicamos gran atención a la confidencialidad de los datos personales de los usuarios de nuestros sitios web. Es por ello, que nos interesa exponer de manera detallada nuestra política de privacidad para la protección de la confidencialidad de los datos que nos proporcionas, teniendo en consideración que nosotros no obtenemos datos de carácter personal de nuestros usuarios sin su conocimiento y consentimiento previo, ni se comunican a terceros y/ al público en general, con excepción de los casos previstos por la legislación vigente.\n\nLos datos personales que nos suministres a través de nuestro sitio web serán tratados de forma confidencial, y una vez obtenido el consentimiento por parte del usuario, quedarán incorporados en nuestras bases de datos, siendo utilizados por Sally Chile Holding SpA únicamente para la prestación de los servicios ofrecidos a través de la página web de Sally Chile Holding SpA, tales como dar respuesta a consultas y sugerencias de nuestros clientes, y la selección de aquellos que quieran optar a oportunidades de trabajo en nuestra empresa. Asimismo, los datos personales que nos suministres, podrán ser utilizados para el envío de información comercial. Lo anterior comprende el envío a nuestros usuarios de información comercial asociada a /i/ catálogos, colecciones y nuevos lanzamientos de productos; /ii/ promociones y ofertas de productos; /iii/ participación en concursos, tanto a través de nuestra página web como de cupones físicos; iv/ aperturas de nuevos puntos de ventas y diferentes novedades en nuestros productos. De la misma manera, los datos proporcionados podrán servir de base para estudios de mercados con el fin de definir políticas y futuros proyectos de nuestra empresa. Para efectos de lo anterior, Sally Chile Holding SpA se limitará únicamente a solicitar al usuario, quien voluntariamente podrá proporcionarlo, su nombre completo y correo electrónico.\n\nNo obstante lo anterior, siempre podrás solicitar la supresión del envío de información comercial a tu dirección electrónica, a través del procedimiento que estará explicitado en las comunicaciones mediante las cuales se envíe dicha información. Sally Chile Holding SpA, asegurará a los usuarios de nuestro sitio web, que establecerá un procedimiento con el objeto de mantener actualizada la información proporcionada, todo lo anterior de conformidad con la ley número 19.628 sobre protección de datos de carácter personal.\n\nCon la finalidad de ofrecer un mejor servicio y con el objeto de facilitar el uso de nuestra página web, se analizarán el número de páginas visitadas en nuestro sitio web www.sallybeauty.cl, el número de visitas, así como la actividad de los visitantes y su frecuencia de utilización. Para estos efectos, Sally Chile Holding SpA utilizará la información estadística entregada por el proveedor de servicios de internet.\n\nSally Chile Holding SpA no utiliza cookies para recoger información de los usuarios, ni registra las direcciones IP de acceso. Únicamente se utilizan cookies propias, de sesión, con finalidad técnica (aquellas que permiten al usuario la navegación a través del sitio web y la utilización de las diferentes opciones y servicios que en ella existen).\n\nEl portal del cual es titular Sally Chile Holding SpA puede contener enlaces a sitios web de terceros, cuyas políticas de privacidad son ajenas a las de Sally Chile Holding SpA, y de la cual esta última no se hace responsable. Al acceder a tales sitios web usted puede decidir si acepta sus políticas de privacidad y de cookies.\n\nAunque nuestra intención no es realizar cambios frecuentes en nuestra política de privacidad, Sally Chile Holding SpA podrá modificarla en cualquier momento. De todas formas, las nuevas versiones de la Política de Privacidad te serán publicadas y anunciadas en su sitio web, con razonable antelación a su puesta en práctica. El hecho de continuar accediendo y utilizando al sitio web de Sally Chile Holding SpA, después de haber sido publicado cualquier cambio de esta Política de Privacidad, significará que usted ha aceptado tales cambios. Considerando lo anterior, te sugerimos consultar las políticas de privacidad cada vez visites nuestra tienda en línea.\n\nSally Chile Holding SpA utilizará los datos provistos por el usuario conforme a lo establecido en la presente política de privacidad y no los divulgará, salvo que sea solicitada por cualquier tribunal u órgano del estado.",
+            "blockClass": "textColumn"
+        }
+    }
+}

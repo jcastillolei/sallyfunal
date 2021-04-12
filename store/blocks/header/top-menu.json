@@ -1,0 +1,1036 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#mi-cuenta",
+      "menu-item#mis-pedidos",
+      "menu-item#mis-cotizaciones",
+      "menu-item#mi-credito",
+      "menu-item#marcas",
+      "menu-item#ayuda"
+    ],
+    "props": {
+      "blockClass": "top-menu-links"
+    }
+  },
+  "menu-item#mi-cuenta": {
+    "props": {
+      "id": "menu-item-cuenta-head",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "MI CUENTA",
+        "text": "MI CUENTA"
+      }
+    }
+  },
+  "menu-item#mis-pedidos": {
+    "props": {
+      "id": "menu-item-pedidos-head",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "MIS PEDIDOS",
+        "text": "MIS PEDIDOS"
+      }
+    }
+  },
+  "menu-item#mis-cotizaciones": {
+    "props": {
+      "id": "menu-item-cotizaciones-head",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cotizacion",
+        "noFollow": false,
+        "tagTitle": "MIS COTIZACIONES",
+        "text": "MIS COTIZACIONES"
+      }
+    }
+  },
+  "menu-item#mi-credito": {
+    "props": {
+      "id": "menu-item-credito-head",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "MI CREDITO",
+        "text": "MI CREDITO"
+      }
+    }
+  },
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas-head",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "MARCAS",
+        "text": "MARCAS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#marcas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#marcas": {
+    "props": {
+      "blockClass": "top-menu-marcas"
+    },
+    "children": [
+      "flex-layout.row#menu-marcas"
+    ]
+  },
+  "flex-layout.row#menu-marcas": {
+    "children": [
+      "flex-layout.col#menu-marcas-1",
+      "flex-layout.col#menu-marcas-2",
+      "flex-layout.col#menu-marcas-3",
+      "flex-layout.col#menu-marcas-4"
+    ]
+  },
+  "flex-layout.col#menu-marcas-1": {
+    "children": [
+      "vtex.menu@2.x:menu#marcas"
+    ]
+  },
+  "flex-layout.col#menu-marcas-2": {
+    "children": [
+      "vtex.menu@2.x:menu#marcas2"
+    ]
+  },
+  "flex-layout.col#menu-marcas-3": {
+    "children": [
+      "vtex.menu@2.x:menu#marcas3"
+    ]
+  },
+  "flex-layout.col#menu-marcas-4": {
+    "children": [
+      "vtex.menu@2.x:menu#marcas4"
+    ]
+  },
+  "vtex.menu@2.x:menu#marcas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#aghair",
+      "menu-item#agebeautiful",
+      "menu-item#alfaparf",
+      "menu-item#aclassic",
+      "menu-item#ardell",
+      "menu-item#arlos",
+      "menu-item#babyliss",
+      "menu-item#barburys",
+      "menu-item#batiste",
+      "menu-item#bsecrets",
+      "menu-item#bettydain",
+      "menu-item#btzone",
+      "menu-item#biotera",
+      "menu-item#bodyography"
+    ]
+  },
+  "menu-item#aghair": {
+    "props": {
+      "id": "menu-item-aghair",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ag-hair",
+        "noFollow": true,
+        "tagTitle": "AG Hair",
+        "text": "AG Hair"
+      }
+    }
+  },
+  "menu-item#agebeautiful": {
+    "props": {
+      "id": "menu-item-agebeautiful",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/age-beautiful",
+        "noFollow": true,
+        "tagTitle": "Age Beautiful",
+        "text": "Age Beautiful"
+      }
+    }
+  },
+  "menu-item#alfaparf": {
+    "props": {
+      "id": "menu-item-alfaparf",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alfa-parf",
+        "noFollow": true,
+        "tagTitle": "Alfa-Parf",
+        "text": "Alfa-Parf"
+      }
+    }
+  },
+  "menu-item#aclassic": {
+    "props": {
+      "id": "menu-item-aclassic",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/american-classic",
+        "noFollow": true,
+        "tagTitle": "American Classic",
+        "text": "American Classic"
+      }
+    }
+  },
+  "menu-item#ardell": {
+    "props": {
+      "id": "menu-item-ardell",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ardell",
+        "noFollow": true,
+        "tagTitle": "Ardell",
+        "text": "Ardell"
+      }
+    }
+  },
+  "menu-item#arlos": {
+    "props": {
+      "id": "menu-item-arlos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/arlos",
+        "noFollow": true,
+        "tagTitle": "Arlos",
+        "text": "Arlos"
+      }
+    }
+  },
+  "menu-item#babyliss": {
+    "props": {
+      "id": "menu-item-babyliss",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/babylisspro",
+        "noFollow": true,
+        "tagTitle": "BabylissPRO",
+        "text": "BabylissPRO"
+      }
+    }
+  },
+  "menu-item#barburys": {
+    "props": {
+      "id": "menu-item-barburys",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/barburys",
+        "noFollow": true,
+        "tagTitle": "Barburys",
+        "text": "Barburys"
+      }
+    }
+  },
+  "menu-item#batiste": {
+    "props": {
+      "id": "menu-item-batiste",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/batiste",
+        "noFollow": true,
+        "tagTitle": "Batiste",
+        "text": "Batiste"
+      }
+    }
+  },
+  "menu-item#bsecrets": {
+    "props": {
+      "id": "menu-item-bsecrets",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/beauty-secrets",
+        "noFollow": true,
+        "tagTitle": "Beauty Secrets",
+        "text": "Beauty Secrets"
+      }
+    }
+  },
+  "menu-item#bettydain": {
+    "props": {
+      "id": "menu-item-bettydain",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/betty-dain",
+        "noFollow": true,
+        "tagTitle": "Betty Dain",
+        "text": "Betty Dain"
+      }
+    }
+  },
+  "menu-item#btzone": {
+    "props": {
+      "id": "menu-item-btzone",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Beyond-The-Zone",
+        "noFollow": true,
+        "tagTitle": "Beyond The Zone",
+        "text": "Beyond The Zone"
+      }
+    }
+  },
+  "menu-item#biotera": {
+    "props": {
+      "id": "menu-item-biotera",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/biotera",
+        "noFollow": true,
+        "tagTitle": "Biotera",
+        "text": "Biotera"
+      }
+    }
+  },
+  "menu-item#bodyography": {
+    "props": {
+      "id": "menu-item-bodyography",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bodyography",
+        "noFollow": true,
+        "tagTitle": "Bodyography",
+        "text": "Bodyography"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#marcas2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#cmango",
+      "menu-item#celarnico",
+      "menu-item#chamos",
+      "menu-item#cygray",
+      "menu-item#cricket",
+      "menu-item#dcnl",
+      "menu-item#dermactin",
+      "menu-item#difeel",
+      "menu-item#eurostil",
+      "menu-item#fsecrets",
+      "menu-item#fcouture",
+      "menu-item#fpaints",
+      "menu-item#foreo"
+    ]
+  },
+  "menu-item#cmango": {
+    "props": {
+      "id": "menu-item-cmango",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/california-mango",
+        "noFollow": true,
+        "tagTitle": "California Mango",
+        "text": "California Mango"
+      }
+    }
+  },
+  "menu-item#celarnico": {
+    "props": {
+      "id": "menu-item-celarnico",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/celarnico",
+        "noFollow": true,
+        "tagTitle": "Celarnico",
+        "text": "Celarnico"
+      }
+    }
+  },
+  "menu-item#chamos": {
+    "props": {
+      "id": "menu-item-chamos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/chamos",
+        "noFollow": true,
+        "tagTitle": "Chamos",
+        "text": "Chamos"
+      }
+    }
+  },
+  "menu-item#cygray": {
+    "props": {
+      "id": "menu-item-cygray",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cover Your Gray",
+        "noFollow": true,
+        "tagTitle": "Cover Your Gray",
+        "text": "Cover Your Gray"
+      }
+    }
+  },
+  "menu-item#cricket": {
+    "props": {
+      "id": "menu-item-cricket",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cricket",
+        "noFollow": true,
+        "tagTitle": "Cricket",
+        "text": "Cricket"
+      }
+    }
+  },
+  "menu-item#dcnl": {
+    "props": {
+      "id": "menu-item-dcnl",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dcnl",
+        "noFollow": true,
+        "tagTitle": "DCNL",
+        "text": "DCNL"
+      }
+    }
+  },
+  "menu-item#dermactin": {
+    "props": {
+      "id": "menu-item-dermactin",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dermactin-ts",
+        "noFollow": true,
+        "tagTitle": "Dermactin-TS",
+        "text": "Dermactin-TS"
+      }
+    }
+  },
+  "menu-item#difeel": {
+    "props": {
+      "id": "menu-item-difeel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/difeel",
+        "noFollow": true,
+        "tagTitle": "Difeel",
+        "text": "Difeel"
+      }
+    }
+  },
+  "menu-item#eurostil": {
+    "props": {
+      "id": "menu-item-eurostil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eurostil",
+        "noFollow": true,
+        "tagTitle": "Eurostil",
+        "text": "Eurostil"
+      }
+    }
+  },
+  "menu-item#fsecrets": {
+    "props": {
+      "id": "menu-item-fsecrets",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/face-secrets",
+        "noFollow": true,
+        "tagTitle": "Face Secrets",
+        "text": "Face Secrets"
+      }
+    }
+  },
+  "menu-item#fcouture": {
+    "props": {
+      "id": "menu-item-fcouture",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/femme-couture",
+        "noFollow": true,
+        "tagTitle": "Femme Couture",
+        "text": "Femme Couture"
+      }
+    }
+  },
+  "menu-item#fpaints": {
+    "props": {
+      "id": "menu-item-fpaints",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Finger-Paints",
+        "noFollow": true,
+        "tagTitle": "Finger Paints",
+        "text": "Finger Paints"
+      }
+    }
+  },
+  "menu-item#foreo": {
+    "props": {
+      "id": "menu-item-foreo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/foreo",
+        "noFollow": true,
+        "tagTitle": "Foreo",
+        "text": "Foreo"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#marcas3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#gelish",
+      "menu-item#gibs",
+      "menu-item#hchemist",
+      "menu-item#henbor",
+      "menu-item#htools",
+      "menu-item#ion",
+      "menu-item#kocostar",
+      "menu-item#lakme",
+      "menu-item#mtaylor",
+      "menu-item#mdivine",
+      "menu-item#ogold",
+      "menu-item#olio",
+      "menu-item#only"
+    ]
+  },
+  "menu-item#gelish": {
+    "props": {
+      "id": "menu-item-gelish",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gelish",
+        "noFollow": true,
+        "tagTitle": "Gelish",
+        "text": "Gelish"
+      }
+    }
+  },
+  "menu-item#gibs": {
+    "props": {
+      "id": "menu-item-gibs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gibs",
+        "noFollow": true,
+        "tagTitle": "Gibs",
+        "text": "Gibs"
+      }
+    }
+  },
+  "menu-item#hchemist": {
+    "props": {
+      "id": "menu-item-hchemist",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hair-chemist",
+        "noFollow": true,
+        "tagTitle": "Hair Chemist",
+        "text": "Hair Chemist"
+      }
+    }
+  },
+  "menu-item#henbor": {
+    "props": {
+      "id": "menu-item-henbor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Henbor",
+        "noFollow": true,
+        "tagTitle": "Henbor",
+        "text": "Henbor"
+      }
+    }
+  },
+  "menu-item#htools": {
+    "props": {
+      "id": "menu-item-htools",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hot-tools",
+        "noFollow": true,
+        "tagTitle": "Hot Tools",
+        "text": "Hot Tools"
+      }
+    }
+  },
+  "menu-item#ion": {
+    "props": {
+      "id": "menu-item-ion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ion",
+        "noFollow": true,
+        "tagTitle": "ION",
+        "text": "ION"
+      }
+    }
+  },
+  "menu-item#kocostar": {
+    "props": {
+      "id": "menu-item-kocostar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Kocostar",
+        "noFollow": true,
+        "tagTitle": "Kocostar",
+        "text": "Kocostar"
+      }
+    }
+  },
+  "menu-item#lakme": {
+    "props": {
+      "id": "menu-item-lakme",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lakme",
+        "noFollow": true,
+        "tagTitle": "Lakmé",
+        "text": "Lakmé"
+      }
+    }
+  },
+  "menu-item#mtaylor": {
+    "props": {
+      "id": "menu-item-mtaylor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/morgan-taylor",
+        "noFollow": true,
+        "tagTitle": "Morgan Taylor",
+        "text": "Morgan Taylor"
+      }
+    }
+  },
+  "menu-item#mdivine": {
+    "props": {
+      "id": "menu-item-mdivine",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mystic-divine",
+        "noFollow": true,
+        "tagTitle": "Mystic Divine",
+        "text": "Mystic Divine"
+      }
+    }
+  },
+  "menu-item#ogold": {
+    "props": {
+      "id": "menu-item-ogold",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Old-Gold",
+        "noFollow": true,
+        "tagTitle": "Old Gold",
+        "text": "Old Gold"
+      }
+    }
+  },
+  "menu-item#olio": {
+    "props": {
+      "id": "menu-item-olio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Olio",
+        "noFollow": true,
+        "tagTitle": "OLIO",
+        "text": "OLIO"
+      }
+    }
+  },
+  "menu-item#only": {
+    "props": {
+      "id": "menu-item-only",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/one-n-only",
+        "noFollow": true,
+        "tagTitle": "One N' Only",
+        "text": "One N' Only"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#marcas4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#palladio",
+      "menu-item#pmitchell",
+      "menu-item#phillips",
+      "menu-item#proclaim",
+      "menu-item#rdonna",
+      "menu-item#rbrush",
+      "menu-item#scare",
+      "menu-item#senscience",
+      "menu-item#swissco",
+      "menu-item#tbalm",
+      "menu-item#tshine",
+      "menu-item#tweezerman",
+      "menu-item#wbrush",
+      "menu-item#xp200"
+    ]
+  },
+  "menu-item#palladio": {
+    "props": {
+      "id": "menu-item-palladio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/palladio",
+        "noFollow": true,
+        "tagTitle": "Palladio",
+        "text": "Palladio"
+      }
+    }
+  },
+  "menu-item#pmitchell": {
+    "props": {
+      "id": "menu-item-pmitchell",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/paul-mitchell",
+        "noFollow": true,
+        "tagTitle": "Paul Mitchell",
+        "text": "Paul Mitchell"
+      }
+    }
+  },
+  "menu-item#phillips": {
+    "props": {
+      "id": "menu-item-phillips",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/phillips",
+        "noFollow": true,
+        "tagTitle": "Phillips",
+        "text": "Phillips"
+      }
+    }
+  },
+  "menu-item#proclaim": {
+    "props": {
+      "id": "menu-item-proclaim",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/proclaim",
+        "noFollow": true,
+        "tagTitle": "Proclaim",
+        "text": "Proclaim"
+      }
+    }
+  },
+  "menu-item#rdonna": {
+    "props": {
+      "id": "menu-item-rdonna",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rocco-donna",
+        "noFollow": true,
+        "tagTitle": "Rocco Donna",
+        "text": "Rocco Donna"
+      }
+    }
+  },
+  "menu-item#rbrush": {
+    "props": {
+      "id": "menu-item-rbrush",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/royal-brush",
+        "noFollow": true,
+        "tagTitle": "Royal Brush",
+        "text": "Royal Brush"
+      }
+    }
+  },
+  "menu-item#scare": {
+    "props": {
+      "id": "menu-item-scare",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/salon-care",
+        "noFollow": true,
+        "tagTitle": "Salon Care",
+        "text": "Salon Care"
+      }
+    }
+  },
+  "menu-item#senscience": {
+    "props": {
+      "id": "menu-item-senscience",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/senscience",
+        "noFollow": true,
+        "tagTitle": "Senscience",
+        "text": "Senscience"
+      }
+    }
+  },
+  "menu-item#swissco": {
+    "props": {
+      "id": "menu-item-swissco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/swissco",
+        "noFollow": true,
+        "tagTitle": "Swissco",
+        "text": "Swissco"
+      }
+    }
+  },
+  "menu-item#tbalm": {
+    "props": {
+      "id": "menu-item-tbalm",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/the-balm",
+        "noFollow": true,
+        "tagTitle": "The Balm",
+        "text": "The Balm"
+      }
+    }
+  },
+  "menu-item#tshine": {
+    "props": {
+      "id": "menu-item-tshine",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tropical-Shine",
+        "noFollow": true,
+        "tagTitle": "Tropical Shine",
+        "text": "Tropical Shine"
+      }
+    }
+  },
+  "menu-item#tweezerman": {
+    "props": {
+      "id": "menu-item-tweezerman",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tweezerman",
+        "noFollow": true,
+        "tagTitle": "Tweezerman",
+        "text": "Tweezerman"
+      }
+    }
+  },
+  "menu-item#wbrush": {
+    "props": {
+      "id": "menu-item-wbrush",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Wet-Brush",
+        "noFollow": true,
+        "tagTitle": "Wet Brush",
+        "text": "Wet Brush"
+      }
+    }
+  },
+  "menu-item#xp200": {
+    "props": {
+      "id": "menu-item-xp200",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/XP200",
+        "noFollow": true,
+        "tagTitle": "XP200",
+        "text": "XP200"
+      }
+    }
+  },
+  "menu-item#ayuda": {
+    "props": {
+      "id": "menu-item-ayuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "AYUDA",
+        "text": "AYUDA"
+      }
+    }
+  }
+}
