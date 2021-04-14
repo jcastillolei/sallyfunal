@@ -153,3 +153,11 @@
 .container--shelfTitle-prof{
   display: none;
 }
+
+.paragraph--texto-prof-formula{
+  color: white;
+}
+
+.link--texto-prof-formula{
+  color: rgb(182, 182, 182);
+}

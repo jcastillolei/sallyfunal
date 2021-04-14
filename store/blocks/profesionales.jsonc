@@ -31,7 +31,9 @@
   },
   "flex-layout.col#formProf": {
     "children": [
+      "rich-text#texto-enviar-formulario",
       "form#prof"
+      
     ],
     "props": {
       "width": "50%",
@@ -42,6 +44,13 @@
     "props": {
       "entity": "Profesionales",
       "schema": "Profesionales"
+    }
+  },
+
+  "rich-text#texto-enviar-formulario": {
+    "props": {
+      "text": "Para completar tu solicitud de registro debes rellenar el siguiente formulario, y enviarnos tus certificados y/o acreditaciones al siguiente correo: B2BCHILE@SALLYBEAUTY.COM",
+      "blockClass": "texto-prof-formula"
     }
   },
 
