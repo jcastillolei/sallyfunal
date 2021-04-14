@@ -31,7 +31,6 @@
   },
   "flex-layout.col#formProf": {
     "children": [
-      "rich-text#texto-enviar-formulario",
       "form#prof"
       
     ],
@@ -40,16 +39,81 @@
       "blockClass": "form-register"
     }
   },
-  "form#prof": {
+  "form#prof2": {
     "props": {
       "entity": "Profesionales",
       "schema": "Profesionales"
     }
   },
 
+  "form#prof": {
+    "props": {
+      "entity": "Profesionales",
+      "schema": "Profesionales"
+    },
+    "children": [
+      "form-input.text#antiguedad",
+      "form-input.text#profesion",
+      "form-input.text#email",
+      "form-input.text#nombre",
+      "form-input.text#apellido",
+      "form-input.text#rut",
+      "rich-text#texto-enviar-formulario",
+      "form-submit"
+    ],
+    "blocks": ["form-success"]
+  },
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Succesfully submitted the data!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.text#antiguedad": {
+    "props": {
+      "pointer": "#/properties/antiguedad"
+    }
+  },
+  "form-input.text#profesion": {
+    "props": {
+      "pointer": "#/properties/profesion"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.text#nombre": {
+    "props": {
+      "pointer": "#/properties/nombre"
+    }
+  },
+  "form-input.text#apellido": {
+    "props": {
+      "pointer": "#/properties/apellido"
+    }
+  },
+  "form-input.text#rut": {
+    "props": {
+      "pointer": "#/properties/rut"
+    }
+  },
+  "form-submit": {
+    "props": {
+      "label": "Submit"
+    }
+  },
+
   "rich-text#texto-enviar-formulario": {
     "props": {
-      "text": "Para completar tu solicitud de registro debes rellenar el siguiente formulario, y enviarnos tus certificados y/o acreditaciones al siguiente correo: B2BCHILE@SALLYBEAUTY.COM",
+      "text": "Para completar tu solicitud de registro debes enviarnos tus certificados y/o acreditaciones al siguiente correo: B2BCHILE@SALLYBEAUTY.COM",
       "blockClass": "texto-prof-formula"
     }
   },
