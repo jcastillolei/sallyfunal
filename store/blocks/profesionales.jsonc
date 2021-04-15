@@ -105,11 +105,18 @@
       "pointer": "#/properties/rut"
     }
   },
+  "form-input.upload#adjunto": {
+    "props": {
+      "pointer": "#/properties/customFileLang",
+      "accept": ".doc, .png"
+    }
+  },
   "form-submit": {
     "props": {
       "label": "Submit"
     }
   },
+  
 
   "rich-text#texto-enviar-formulario": {
     "props": {
