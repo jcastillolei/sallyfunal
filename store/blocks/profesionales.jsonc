@@ -48,13 +48,14 @@
 
   "form#prof": {
     "props": {
-      "entity": "Profesionales",
+      "entity": "PF",
       "schema": "Profesionales"
     },
     "children": [
       "form-input.text#antiguedad",
       "form-input.text#profesion",
       "form-input.text#email",
+      "form-input.text#telefono",
       "form-input.text#nombre",
       "form-input.text#apellido",
       "form-input.text#rut",
@@ -90,6 +91,11 @@
       "pointer": "#/properties/email"
     }
   },
+  "form-input.text#telefono": {
+    "props": {
+      "pointer": "#/properties/telefono"
+    }
+  },
   "form-input.text#nombre": {
     "props": {
       "pointer": "#/properties/nombre"
@@ -107,7 +113,7 @@
   },
   "form-input.upload#adjunto": {
     "props": {
-      "pointer": "#/properties/customFileLang",
+      "pointer": "#/properties/rut",
       "accept": ".doc, .png"
     }
   },

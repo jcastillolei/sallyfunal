@@ -32,6 +32,17 @@
   font-family: 'Share Tech', sans-serif;
 }
 
+.flexRowContent--row-btn-coti {
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+/* boton cotizacion minicarro mobile */
+@media(max-width: 990px){
+  .flexRowContent--row-btn-coti {
+    padding: 0 .75rem 0 .75rem;
+  }
+}
+
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 12px;

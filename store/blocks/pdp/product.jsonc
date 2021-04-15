@@ -239,7 +239,8 @@
   "flex-layout.row#buy-buttons": {
     "children": [
       "flex-layout.col#cantidad",
-      "flex-layout.col#agregar"
+      "flex-layout.col#agregar",
+      "flex-layout.col#cotizar"
     ],
     "props": {
       "blockClass": "botones"
@@ -259,6 +260,20 @@
       "width": "30%"
     },
     "children": ["add-to-cart-button"]
+  },
+
+  "flex-layout.col#cotizar": {
+    "props": {
+      "blockClass": "cotizar-button",
+      "width": "25%"
+    },
+    "children": ["add-to-cart-button#cotizar"]
+  },
+  "add-to-cart-button#cotizar": {
+    "props": {
+      "text": "COTIZAR",
+      "blockClass": "cotizar-button-btn"
+    }
   },
   "share#default": {
     "props": {
