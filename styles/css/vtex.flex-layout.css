@@ -431,13 +431,7 @@
 
   .flexCol--skuList
   :global(.vtex-sku-list-1-x-skuImage){
-    width: 70%;
-    margin: 0 auto;
-  }
-
-  .flexCol--skuList
-  :global(.vtex-sku-list-1-x-skuImage){
-    width: 60%;
+    width: 100%;
     margin: 2px auto 0;
   }
 }

@@ -53,14 +53,14 @@
     "props": {
       "text": "Tinte",
       "blockClass": "skuList",
-      "width": "15%"
+      "width": "5%"
     }
   },
   "rich-text#expiry-date": {
     "props": {
       "text": "Nombre",
       "blockClass": "skuList",
-      "width": "50%",
+      "width": "40%",
       "textAlignment": "CENTER"
     }
   },
@@ -68,7 +68,7 @@
     "props": {
       "text": "**Stock**",
       "blockClass": "skuList",
-      "width": "20%",
+      "width": "10%",
       "textAlignment": "CENTER"
     }
   },
@@ -76,14 +76,14 @@
     "props": {
       "text": "Precio",
       "blockClass": "skuList",
-      "width": "20%"
+      "width": "10%"
     }
   },
   "rich-text#quantity-selector": {
     "props": {
       "text": "Cantidad",
       "blockClass": "skuList",
-      "width": "25%"
+      "width": "20%"
     }
   },
   "sku-list": {
@@ -94,8 +94,7 @@
   },
   "sku-content.desktop": {
     "children": [
-      "flex-layout.row#item-main-desktop"
-    ]
+      "flex-layout.row#item-main-desktop"    ]
   },
   "flex-layout.row#item-main-desktop": {
     "props": {
@@ -111,7 +110,7 @@
   },
   "flex-layout.col#sku-image": {
     "props": {
-      "width": "10%"
+      "width": "5%"
     },
     "children": [
       "sku-image"
@@ -119,7 +118,7 @@
   },
   "flex-layout.col#sku-name": {
     "props": {
-      "width": "50%"
+      "width": "40%"
     },
     "children": [
       "sku-name"
@@ -127,7 +126,7 @@
   },
   "flex-layout.col#sku-inventory": {
     "props": {
-      "width": "20%"
+      "width": "10%"
     },
     "children": [
       "sku-inventory#default"
@@ -145,7 +144,7 @@
   },
   "flex-layout.col#sku-price": {
     "props": {
-      "width": "20%"
+      "width": "10%"
     },
     "children": [
       "sku-price"
