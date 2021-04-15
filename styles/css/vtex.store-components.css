@@ -318,6 +318,9 @@
 :global(.vtex-button){
   border-radius: 20px;
   font-family: 'Share Tech', sans-serif;
+  background: #F75454;
+  font-weight: bold;
+  border: none;
 }
 
 :global(.vtex-input__label),
