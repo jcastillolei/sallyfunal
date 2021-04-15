@@ -273,6 +273,8 @@
     border: none;
     font-family: 'PT Sans', sans-serif;
   }
+  :global(.vtex-sku-list-1-x-selectedSkuContentWrapper)
+  :global(.vtex-numeric-stepper-container),
   .flexColChild--right-col
   :global(.vtex-numeric-stepper-container){
     justify-content: center;
@@ -497,6 +499,11 @@
     width: 100%;
     margin: 1rem auto 0;
   }
+}
+
+:global(.vtex-sku-list-1-x-selectedSkuContentWrapper)
+:global(.vtex-numeric-stepper-container){
+  justify-content: center;
 }
 
 /* h o v e r | menu desktop */
@@ -870,4 +877,32 @@
 .flexRowContent--image-name-mobile{
   display: grid;
   grid-template-columns: 1fr 3fr;
+}
+
+.flexColChild--add-tintes
+:global(.vtex-button){
+  border-radius: 5px;
+  margin-left: 1rem;
+  min-height: 2rem;
+}
+
+.flexColChild--add-tintes
+:global(.vtex-button)
+:global(.vtex-button__label){
+  font-size: 0;
+}
+
+.flexColChild--add-tintes
+:global(.vtex-button)
+:global(.vtex-button__label)::before{
+  content: 'AGREGAR';
+  font-size: .8rem;
+}
+
+.flexColChild--add-tintes-mobile
+:global(.vtex-button){
+  border-radius: 5px;
+  min-height: 2rem;
+  margin-bottom: .9rem;
+  margin-top: .2rem;
 }
