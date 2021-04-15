@@ -179,10 +179,17 @@
       "flex-layout.row#price-inventory",
       "flex-layout.col#sku-highlight-certificates-mobile",
       "flex-layout.col#sku-highlight-expiry-date-mobile",
-      "flex-layout.col#sku-quantity-selector-mobile",
-      "flex-layout.col#add-button-mobile"
+      "flex-layout.row#btn-qty-mobile"
     ]
   },
+
+  "flex-layout.row#btn-qty-mobile":{
+    "children": ["flex-layout.col#sku-quantity-selector-mobile", "flex-layout.col#add-button-mobile"],
+    "props": {
+      "blockClass": "btn-qty-mobile"
+    }
+  },
+
   "flex-layout.col#sku-image-mobile": {
     "children": [
       "sku-image"

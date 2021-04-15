@@ -903,6 +903,22 @@
 :global(.vtex-button){
   border-radius: 5px;
   min-height: 2rem;
-  margin-bottom: .9rem;
-  margin-top: .2rem;
+}
+
+.flexRowContent--btn-qty-mobile{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flexRowContent--btn-qty-mobile
+:global(.vtex-button)
+:global(.vtex-button__label)::before{
+  content: 'AGREGAR';
+  font-size: .8rem;
+}
+
+.flexRowContent--btn-qty-mobile
+:global(.vtex-button)
+:global(.vtex-button__label){
+  font-size: 0;
 }
