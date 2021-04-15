@@ -16,3 +16,8 @@
     border-style: solid;
     font-weight: bold;
 }
+
+.containerList
+:global(.vtex-pageHeader__title){
+    font-family: 'PT Sans', sans-serif;
+}

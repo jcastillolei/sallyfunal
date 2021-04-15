@@ -130,6 +130,7 @@
 
 .flexColChild--right-col
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+.flexCol--buy-button
 :global(.vtex-button),
 .flexColChild--login-form-right
 :global(.vtex-button),
@@ -932,4 +933,28 @@
 :global(.vtex-button)
 :global(.vtex-button__label){
   font-size: 0;
+}
+
+/* btn c o t i z a r*/
+.flexCol--cotizar-button
+:global(.vtex-button){
+  background: none;
+  color: black;
+  border-radius: 50px;
+  font-family: 'Share Tech', sans-serif;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.flexCol--cotizar-button
+:global(.vtex-button):hover{
+  background: black !important;
+  color: white;
+}
+
+@media (max-width: 990px){
+  .flexCol--cotizar-button
+  :global(.vtex-button){
+    margin-top: .7rem;
+  }
 }
