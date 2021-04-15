@@ -282,3 +282,56 @@
 :global(.vtex-store-components-3-x-caretIcon){
   color: #EA5456;
 }
+
+
+/* orderquote | cotizacion */
+:global(.vtex-orderquote-1-x-containerList)
+:global(.vtex-orderquote-1-x-refreshButton)
+:global(.vtex-button){
+    background: #F75454;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Share Tech',sans-serif;
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+:global(.vtex-orderquote-1-x-containerList)
+:global(.vtex-button){
+    background: #f5f5f5;
+    border-radius: 20px;
+    border-color: black;
+    color: black;
+    font-family: 'Share Tech',sans-serif;
+    border: 2px solid black;
+    font-weight: bold;  
+    font-size: .9rem;
+    min-height: 30px !important;
+}
+
+:global(.vtex-orderquote-1-x-containerList)
+:global(.vtex-pageHeader__title){
+    font-family: 'PT Sans', sans-serif;
+}
+
+:global(.vtex-orderquote-1-x-buttonSave)
+:global(.vtex-button){
+  border-radius: 20px;
+  font-family: 'Share Tech', sans-serif;
+}
+
+:global(.vtex-input__label),
+:global(.vtex-orderquote-1-x-currencyContainer),
+:global(.vtex-orderquote-1-x-itemSkuName),
+:global(.vtex-orderquote-1-x-itemNameContainer){
+  font-family: 'PT Sans', sans-serif;
+}
+
+:global(.vtex-textarea__label){
+  font-size: 14px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+:global(.vtex-pageHeader__title){
+  font-family: 'PT Sans', sans-serif;
+}
