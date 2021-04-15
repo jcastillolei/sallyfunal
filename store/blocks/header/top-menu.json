@@ -50,7 +50,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cotizacion",
+        "href": "/orderquote",
         "noFollow": false,
         "tagTitle": "MIS COTIZACIONES",
         "text": "MIS COTIZACIONES"
