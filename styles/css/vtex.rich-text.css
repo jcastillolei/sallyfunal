@@ -199,6 +199,7 @@
 .paragraph--txt-trabaja{
   text-align: center;
 }
+.link,
 .link--txt-trabaja{
   color: rgb(247, 84, 84);
 }
@@ -210,4 +211,10 @@
 :global(.vtex-flex-layout-0-x-flexColChild--textColumn-trabaja){
   text-align: center;
   align-self: center;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--question--visible),
+:global(.vtex-disclosure-layout-1-x-trigger--question--visible)
+.paragraph{
+  color: rgb(247, 84, 84) !important;
 }
