@@ -218,3 +218,9 @@
 .paragraph{
   color: rgb(247, 84, 84) !important;
 }
+
+:global(.vtex-disclosure-layout-1-x-trigger--question):focus,
+:global(.vtex-disclosure-layout-1-x-trigger--question):focus
+.paragraph{
+  color: rgb(247, 84, 84) !important;
+}
