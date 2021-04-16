@@ -124,6 +124,12 @@
     font-size: 13px;
   }
 
+  :global(.vtex-store-footer-2-x-footerLayout)
+  :global(.vtex-menu-2-x-menuItem)
+  :global(.vtex-menu-2-x-styledLinkContent):hover {
+    text-decoration: underline;
+  }
+
   .footerLayout{
     padding: 0 2rem;
     padding-bottom: 40px;
