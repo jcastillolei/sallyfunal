@@ -6,6 +6,11 @@
   "store.custom#contacto": {
       "path": "/contacto"
   },
+
+  "store.custom#trabajaconnosotros": {
+    "path": "/trabaja-con-nosotros"
+  },
+
   "store.custom#sobrenosotros": {
     "path": "/sobrenosotros"
   },

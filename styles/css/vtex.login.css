@@ -18,6 +18,8 @@
     :global(.vtex-rich-text-0-x-paragraph--content-login-left){
         margin-top: 0px;
         margin-bottom: 0px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 200;
     }
     .contentInitialScreen{
         background-color: rgba(0, 0, 0, 0.623);
@@ -106,9 +108,10 @@
     }
     :global(.vtex-rich-text-0-x-wrapper--title-text-login)
     :global(.vtex-rich-text-0-x-paragraph--content-login-left){
-
+        font-family: 'PT Sans', sans-serif;
         margin-bottom: 0;
         line-height: 3rem;
+        font-weight: 100;
     }
     :global(.vtex-rich-text-0-x-wrapper--title-text-login){
         text-align:center;

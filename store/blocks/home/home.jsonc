@@ -346,7 +346,8 @@
         "timeout": 7000,
         "stopOnHover": false
       },
-      "blockClass": "carousel-marcas"
+      "blockClass": "carousel-marcas",
+      "arrowSize": 15
     }
   },
   "list-context.image-list#banners": {

@@ -161,3 +161,53 @@
 .link--texto-prof-formula{
   color: rgb(182, 182, 182);
 }
+
+.link--textColumn{
+  color: rgb(247, 84, 84);
+}
+
+.listItem--textColumn
+.paragraph--textColumn{
+  padding-left: 1rem;
+}
+
+.listItem--textColumn::marker{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+}
+
+@media(min-width: 991px){
+  .listOrdered--textColumn{
+    margin-left: 2rem;
+  }
+}
+
+.headingLevel5--titulo-trabaja{
+  color: rgb(247, 84, 84);
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+.container--titulo-trabaja,
+.container--txt-trabaja{
+  justify-content: center;
+}
+
+.paragraph--txt-trabaja{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 200;
+}
+.paragraph--txt-trabaja{
+  text-align: center;
+}
+.link--txt-trabaja{
+  color: rgb(247, 84, 84);
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--textColumn-trabaja){
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--textColumn-trabaja){
+  text-align: center;
+  align-self: center;
+}

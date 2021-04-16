@@ -160,7 +160,7 @@
   }, 
   "rich-text#content-login": {
     "props": {
-      "text": "Únete a SALLY BEAUTY PROFESIONAL y disfruta de todos los beneficios que tenemos para ti.\nEl mayor surtido de productos profesionales de las mejores marcas.\nENVÍOS A TODO CHILE\nDespachamos a todo el país, Región Metropolitana en 48hs.\nBENEFICIOS EXCLUSIVOS\nSiendo parte de SALLY BEAUTY PROFESIONAL recibirás las mejores ofertas, descuentos, capacitaciones y otros beneficios exclusivos.",
+      "text": "Únete a SALLY BEAUTY PROFESIONAL y disfruta de todos los beneficios que tenemos para ti.\nEl mayor surtido de productos profesionales de las mejores marcas.\n\nENVÍOS A TODO CHILE\n\nDespachamos a todo el país, Región Metropolitana en 48hs.\n\nBENEFICIOS EXCLUSIVOS\n\nSiendo parte de SALLY BEAUTY PROFESIONAL recibirás las mejores ofertas, descuentos, capacitaciones y otros beneficios exclusivos.",
       "blockClass": "content-login-left"
     }
   }

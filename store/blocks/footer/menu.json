@@ -70,7 +70,7 @@
     },
     "children": [
       "menu-item#terminos-footer",
-      "menu-item#contactanos-footer",
+      "menu-item#trabaja-footer",
       "menu-item#tiendas-footer"
     ]
   },
@@ -91,18 +91,18 @@
     }
   },
 
-  "menu-item#contactanos-footer": {
+  "menu-item#trabaja-footer": {
     "props": {
-      "id": "menu-item-contactanos-footer",
+      "id": "menu-item-trabaja-footer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/trabaja-con-nosotros",
         "noFollow": true,
-        "tagTitle": "CONTACTANOS",
-        "text": "CONTACTANOS"
+        "tagTitle": "TRABAJA",
+        "text": "TRABAJA CON NOSOTROS"
       }
     }
   },
@@ -207,6 +207,7 @@
       "menu-item#terminos-mobile",
       "menu-item#privacidad-mobile",
       "menu-item#cambios-mobile",
+      "menu-item#trabaja-mobile",
       "menu-item#faq-mobile"
     ]
   },
@@ -275,6 +276,17 @@
         "noFollow": true,
         "tagTitle": "PREGUNTAS FRECUENTES",
         "text": "PREGUNTAS FRECUENTES"
+      }
+    }
+  },
+  "menu-item#trabaja-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabaja-con-nosotros",
+        "noFollow": true,
+        "tagTitle": "TRABAJA",
+        "text": "TRABAJA CON NOSOTROS"
       }
     }
   }
