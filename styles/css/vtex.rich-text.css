@@ -224,3 +224,57 @@
 .paragraph{
   color: rgb(247, 84, 84) !important;
 }
+
+/* T I E N D A S */
+.container--titulo-tiendas
+.headingLevel6--titulo-tiendas{
+  font-family: 'PT Sans', sans-serif;
+  color: rgb(247, 84, 84);
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0rem !important;
+}
+.paragraph--info-tiendas{
+  font-family: 'PT Sans', sans-serif;
+  font-size: .8rem;
+  font-weight: 200;
+}
+
+:global(.vtex-tab-layout-0-x-container--tiendas)
+:global(.vtex-tab-layout-0-x-listItem)
+:global(.vtex-button){
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+  font-weight: 400;
+}
+
+:global(.vtex-tab-layout-0-x-container--tiendas)
+:global(.vtex-tab-layout-0-x-listItem)
+:global(.vtex-button):focus,
+:global(.vtex-tab-layout-0-x-container--tiendas)
+:global(.vtex-tab-layout-0-x-listItem)
+:global(.vtex-button):active,
+:global(.vtex-tab-layout-0-x-container--tiendas)
+:global(.vtex-tab-layout-0-x-listItem)
+:global(.vtex-button):hover{
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background-color: rgb(247, 84, 84);
+  border-radius: 0px;
+  transition: all 0.2s ease-out;
+}
+:global(.vtex-tab-layout-0-x-container--tiendas)
+:global(.vtex-tab-layout-0-x-listItemActive)
+:global(.vtex-button){
+  background-color: transparent;
+  border-bottom: 5px solid rgb(247, 84, 84);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+}
+.headingLevel4--titulo-tiendas{
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}

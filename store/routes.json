@@ -7,6 +7,11 @@
       "path": "/contacto"
   },
 
+
+  "store.custom#tiendas": {
+    "path": "/tiendas"
+  },
+
   "store.custom#trabajaconnosotros": {
     "path": "/trabaja-con-nosotros"
   },

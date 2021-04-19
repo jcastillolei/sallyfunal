@@ -208,6 +208,7 @@
       "menu-item#privacidad-mobile",
       "menu-item#cambios-mobile",
       "menu-item#trabaja-mobile",
+      "menu-item#tiendas-mobile",
       "menu-item#faq-mobile"
     ]
   },
@@ -276,6 +277,17 @@
         "noFollow": true,
         "tagTitle": "PREGUNTAS FRECUENTES",
         "text": "PREGUNTAS FRECUENTES"
+      }
+    }
+  },
+  "menu-item#tiendas-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas",
+        "noFollow": true,
+        "tagTitle": "TIENDAS",
+        "text": "TIENDAS"
       }
     }
   },

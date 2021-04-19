@@ -229,6 +229,9 @@
     }
   },
   "menu-item#cabellos-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#cabellos-mobile"
+    ],
     "props": {
       "id": "menu-item-cabellos-mobile",
       "type": "custom",
@@ -237,15 +240,28 @@
       "blockClass": "cabello-mobile",
       "itemProps": {
         "type": "internal",
-        "href": "/cabello/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "CABELLOS",
         "text": "CABELLO"
       }
     }
   },
+  "vtex.menu@2.x:submenu#cabellos-mobile":{
+    "children": [
+      "flex-layout.row#menu-cabellos-mobile"
+    ]
+  },
+  "flex-layout.row#menu-cabellos-mobile":{
+    "children": [
+      "flex-layout.col#menu-cabellos-1"
+    ]
+  },
 
   "menu-item#peinados-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#peinados-mobile"
+    ],
     "props": {
       "id": "menu-item-peinados-mobile",
       "type": "custom",
@@ -254,15 +270,28 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/peinados/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "PEINADOS",
         "text": "STYLING"
       }
     }
   },
+  "vtex.menu@2.x:submenu#peinados-mobile":{
+    "children": [
+      "flex-layout.row#menu-peinados-mobile"
+    ]
+  },
+  "flex-layout.row#menu-peinados-mobile":{
+    "children": [
+      "flex-layout.col#menu-peinados-1"
+    ]
+  },
 
   "menu-item#coloracion-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#coloracion-mobile"
+    ],
     "props": {
       "id": "menu-item-coloracion-mobile",
       "type": "custom",
@@ -271,15 +300,28 @@
       "blockClass": "coloracion-mobile",
       "itemProps": {
         "type": "internal",
-        "href": "/coloracion/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "COLORACION",
         "text": "COLORACIÓN"
       }
     }
   },
+  "vtex.menu@2.x:submenu#coloracion-mobile":{
+    "children": [
+      "flex-layout.row#menu-coloracion-mobile"
+    ]
+  },
+  "flex-layout.row#menu-coloracion-mobile":{
+    "children": [
+      "flex-layout.col#menu-coloracion-1"
+    ]
+  },
 
   "menu-item#electricos-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#electricos-mobile"
+    ],
     "props": {
       "id": "menu-item-electricos-mobile",
       "type": "custom",
@@ -288,7 +330,7 @@
       "blockClass": "electricos-mobile",
       "itemProps": {
         "type": "internal",
-        "href": "/electricos/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "ELÉCTRICOS",
         "text": "ELÉCTRICOS"
@@ -296,7 +338,21 @@
     }
   },
 
+  "vtex.menu@2.x:submenu#electricos-mobile":{
+    "children": [
+      "flex-layout.row#menu-eletricos-mobile"
+    ]
+  },
+  "flex-layout.row#menu-eletricos-mobile":{
+    "children": [
+      "flex-layout.col#menu-electricos-1"
+    ]
+  },
+
   "menu-item#unas-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#unas-mobile"
+    ],
     "props": {
       "id": "menu-item-unas-mobile",
       "type": "custom",
@@ -305,15 +361,28 @@
       "blockClass": "unas-mobile",
       "itemProps": {
         "type": "internal",
-        "href": "/unas/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "UÑAS",
         "text": "UÑAS"
       }
     }
   },
+  "vtex.menu@2.x:submenu#unas-mobile":{
+    "children": [
+      "flex-layout.row#menu-unas-mobile"
+    ]
+  },
+  "flex-layout.row#menu-unas-mobile":{
+    "children": [
+      "flex-layout.col#menu-unas-1"
+    ]
+  },
 
   "menu-item#maquillaje-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#maquillajes-mobile"
+    ],
     "props": {
       "id": "menu-item-maquillaje-mobile",
       "type": "custom",
@@ -322,7 +391,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/maquillaje/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "MAQUILLAJE",
         "text": "MAQUILLAJE"
@@ -330,7 +399,21 @@
     }
   },
 
+  "vtex.menu@2.x:submenu#maquillajes-mobile":{
+    "children": [
+      "flex-layout.row#menu-maquillaje-mobile"
+    ]
+  },
+  "flex-layout.row#menu-maquillaje-mobile":{
+    "children": [
+      "flex-layout.col#menu-maquillaje-1"
+    ]
+  },
+
   "menu-item#piel-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#piel-mobile"
+    ],
     "props": {
       "id": "menu-item-piel-mobile",
       "type": "custom",
@@ -339,14 +422,28 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cabello/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "PIEL",
         "text": "PIEL"
       }
     }
   },
+  "vtex.menu@2.x:submenu#piel-mobile":{
+    "children": [
+      "flex-layout.row#menu-piel-mobile"
+    ]
+  },
+  "flex-layout.row#menu-piel-mobile":{
+    "children": [
+      "flex-layout.col#menu-piel-1"
+    ]
+  },
+
   "menu-item#hombre-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#hombre-mobile"
+    ],
     "props": {
       "id": "menu-item-hombre-mobile",
       "type": "custom",
@@ -355,12 +452,22 @@
       "blockClass": "hombre-mobile",
       "itemProps": {
         "type": "internal",
-        "href": "/hombre/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "HOMBRE",
         "text": "HOMBRE"
       }
     }
+  },
+  "vtex.menu@2.x:submenu#hombre-mobile":{
+    "children": [
+      "flex-layout.row#menu-hombre-mobile"
+    ]
+  },
+  "flex-layout.row#menu-hombre-mobile":{
+    "children": [
+      "flex-layout.col#menu-hombre-1"
+    ]
   },
   "logo#mobile": {
     "props": {

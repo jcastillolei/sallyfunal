@@ -4,7 +4,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "orderByField": "OrderByReleaseDateDESC"
       }
     },
     "parent": {
@@ -39,6 +40,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByReleaseDateDESC",
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -49,6 +51,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByReleaseDateDESC",
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -127,7 +130,7 @@
   "order-by.v2": {
     "props": {
       "hiddenOptions": ["OrderByNameASC", "OrderByNameDESC"],
-      "showOrderTitle": false
+      "showOrderTitle": true
     }
   },
   "flex-layout.col#productCount": {
@@ -220,7 +223,13 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#notfound", 
+      "rich-text#shelf-title2",
+      "flex-layout.row#shelf2",
+      "newsletter"
+    ]
   },
 
   "flex-layout.row#notfound": {

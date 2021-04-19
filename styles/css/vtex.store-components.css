@@ -338,3 +338,7 @@
 :global(.vtex-pageHeader__title){
   font-family: 'PT Sans', sans-serif;
 }
+
+:global(.vtex-render-runtime-8-x-loadingBarAnimation){
+  background: #F75454;
+}
