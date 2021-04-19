@@ -278,3 +278,12 @@
   font-family: 'PT Sans', sans-serif;
   text-align: center;
 }
+
+@media(max-width: 990px){
+  .container--titulo-tiendas{
+    justify-content: center;
+  }
+  .container--info-tiendas{
+    justify-content: center;
+  }
+}
