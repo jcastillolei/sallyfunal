@@ -158,10 +158,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/coloracion?map=category-2,category-2,category-3&query=/accesorios/tintes/permanentes&searchState",
+            "href": "/permanentes%20demipermanente?fuzzy=auto&map=category-1,ft&operator=or&query=/coloracion/permanentes%20demipermanente&searchState",
             "noFollow": true,
             "tagTitle": "Permanentes",
-            "text": "Permanente/DemiPermenante"
+            "text": "Permanente/DemiPermanente"
           }
         }
       },
