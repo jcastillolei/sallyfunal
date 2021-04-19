@@ -68,8 +68,7 @@
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x",
-    "vtex.orderquote": "1.x",
-    "vtex.store-locator": "0.x"
+    "vtex.orderquote": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
