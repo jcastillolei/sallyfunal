@@ -1,0 +1,120 @@
+{
+    "menu-item#hombre": {
+        "props": {
+          "id": "menu-item-custom-sale",
+          "type": "custom",
+          "iconId": null,
+          "blockClass": "hombre",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre",
+            "noFollow": true,
+            "tagTitle": "HOMBRE",
+            "text": "HOMBRE"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#hombre"
+        ]
+      },
+      "vtex.menu@2.x:submenu#hombre": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-hombre"
+        ]
+      },
+      "flex-layout.row#menu-hombre": {
+        "children": [
+          "flex-layout.col#menu-hombre-1",
+          "flex-layout.col#menu-hombre-4"
+        ]
+      },
+      "flex-layout.col#menu-hombre-1": {
+        "props": {
+          "blockClass": "menu-col-1"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#hombre"
+        ]
+      },
+      "flex-layout.col#menu-hombre-4": {
+        "children": [
+          "info-card#hombre"
+        ]
+      },
+      "vtex.menu@2.x:menu#hombre": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#electricohombre",
+          "menu-item#cuidadodepielhombre",
+          "menu-item#cabellohombre",
+          "menu-item#ver-todo-hombre"
+        ]
+      },
+      "menu-item#electricohombre": {
+        "props": {
+          "id": "menu-item-electricohombre",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos?map=category-1,category-2,category-2,genero&query=/electricos/cortadoras-de-pelo-barba/desvelladoras/hombre&searchState",
+            "noFollow": true,
+            "tagTitle": "ELÉCTRICO",
+            "text": "ELÉCTRICO"
+          }
+        }
+      },
+      "menu-item#cuidadodepielhombre": {
+        "props": {
+          "id": "menu-item-cuidadodepielhombre",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel?map=category-1,genero&query=/piel/hombre&searchState",
+            "noFollow": true,
+            "tagTitle": "CUIDADO DE LA PIEL",
+            "text": "CUIDADO DE LA PIEL"
+          }
+        }
+      },
+      "menu-item#cabellohombre": {
+        "props": {
+          "id": "menu-item-cabellohombre",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,genero&query=/cabello/hombre&searchState",
+            "noFollow": true,
+            "tagTitle": "CABELLO",
+            "text": "CABELLO"
+          }
+        }
+      },
+      "menu-item#ver-todo-hombre": {
+        "props": {
+          "blockClass": "ver-todo",
+          "id": "menu-item-ver-todo-hombre",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre",
+            "noFollow": true,
+            "tagTitle": "VER TODO HOMBRE",
+            "text": "VER TODO HOMBRE"
+          }
+        }
+      }
+}

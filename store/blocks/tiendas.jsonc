@@ -1,0 +1,622 @@
+{
+    "store.custom#tiendas": {
+        "blocks": [
+            "tab-layout#tiendas",
+            "newsletter"
+        ]
+    },
+    "tab-layout#tiendas":{
+        "children": [
+            "rich-text#titulo-tiendas",
+            "tab-list#tiendas",
+            "tab-content#tiendas"
+        ],
+        "props": {
+            "blockClass": "tiendas",
+            "defaultActiveTabId": "tiendas1"
+        }
+    },
+    "rich-text#titulo-tiendas": {
+        "props": {
+            "text": "#### ENCUENTRA TU TIENDA",
+            "blockClass": "titulo-tiendas",
+            "textPosition": "CENTER"
+        }
+    },
+    "tab-list#tiendas": {
+        "children": [
+            "tab-list.item#tiendas1",
+            "tab-list.item#tiendas2"
+        ]
+    },
+    "tab-list.item#tiendas1": {
+        "props":{
+            "tabId": "tiendas1",
+            "label": "Santiago",
+            "defaultActiveTabId": true
+        }
+    },
+    "tab-list.item#tiendas2": {
+        "props":{
+            "tabId": "tiendas2",
+            "label": "Regiones"
+        }
+    },
+    "tab-content#tiendas": {
+        "children": [
+            "tab-content.item#tiendas1",
+            "tab-content.item#tiendas2"
+        ]
+    },
+    "tab-content.item#tiendas1": {
+        "children": [
+            "flex-layout.row#tiendastgo"
+        ],
+        "props": {
+            "tabId": "tiendas1"
+        }
+    },
+    "flex-layout.row#tiendastgo":{
+        "children": [
+            "flex-layout.col#detalle-tiendastgo"
+        ]
+    },
+    "flex-layout.col#detalle-tiendastgo":{
+        "children": [
+            "rich-text#nombre-stgo-1",
+            "rich-text#info-stgo-1",
+            "product-separator",
+            "rich-text#nombre-stgo-2",
+            "rich-text#info-stgo-2",
+            "product-separator",
+            "rich-text#nombre-stgo-3",
+            "rich-text#info-stgo-3",
+            "product-separator",
+            "rich-text#nombre-stgo-4",
+            "rich-text#info-stgo-4",
+            "product-separator",
+            "rich-text#nombre-stgo-5",
+            "rich-text#info-stgo-5",
+            "product-separator",
+            "rich-text#nombre-stgo-6",
+            "rich-text#info-stgo-6",
+            "product-separator",
+            "rich-text#nombre-stgo-7",
+            "rich-text#info-stgo-7",
+            "product-separator",
+            "rich-text#nombre-stgo-8",
+            "rich-text#info-stgo-8",
+            "product-separator",
+            "rich-text#nombre-stgo-9",
+            "rich-text#info-stgo-9",
+            "product-separator",
+            "rich-text#nombre-stgo-10",
+            "rich-text#info-stgo-10",
+            "product-separator",
+            "rich-text#nombre-stgo-11",
+            "rich-text#info-stgo-11",
+            "product-separator",
+            "rich-text#nombre-stgo-12",
+            "rich-text#info-stgo-12",
+            "product-separator",
+            "rich-text#nombre-stgo-13",
+            "rich-text#info-stgo-13",
+            "product-separator",
+            "rich-text#nombre-stgo-14",
+            "rich-text#info-stgo-14",
+            "product-separator",
+            "rich-text#nombre-stgo-15",
+            "rich-text#info-stgo-15",
+            "product-separator",
+            "rich-text#nombre-stgo-16",
+            "rich-text#info-stgo-16",
+            "product-separator",
+            "rich-text#nombre-stgo-17",
+            "rich-text#info-stgo-17",
+            "product-separator",
+            "rich-text#nombre-stgo-18",
+            "rich-text#info-stgo-18",
+            "product-separator",
+            "rich-text#nombre-stgo-19",
+            "rich-text#info-stgo-19",
+            "product-separator",
+            "rich-text#nombre-stgo-20",
+            "rich-text#info-stgo-20",
+            "product-separator",
+            "rich-text#nombre-stgo-21",
+            "rich-text#info-stgo-21",
+            "product-separator",
+            "rich-text#nombre-stgo-22",
+            "rich-text#info-stgo-22",
+            "product-separator",
+            "rich-text#nombre-stgo-23",
+            "rich-text#info-stgo-23",
+            "product-separator",
+            "rich-text#nombre-stgo-24",
+            "rich-text#info-stgo-24",
+            "product-separator"
+        ]
+    },
+  
+    "rich-text#nombre-stgo-1": {
+        "props": {
+            "text": "###### MALL PLAZA OESTE",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-1": {
+        "props": {
+            "text": "Av. Américo Vespucio 1501. Local D-150A- D-154A\nCerrillos / METROPOLITANA\n225807890\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.5167198, Lng: -70.7195259",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-2": {
+        "props": {
+            "text": "###### LÍDER EXPRESS FONTOVA",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-2": {
+        "props": {
+            "text": "Av. Pedro Fontova 7455. Local 2\nHuechuraba / METROPOLITANA\n229487067\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.3518242, Lng: -70.6725783",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-3": {
+        "props": {
+            "text": "###### MALL FLORIDA CENTER",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-3": {
+        "props": {
+            "text": "Av. Vicuña Mackenna 6100. Local 3073\nLa Florida / METROPOLITANA\n225966376\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.5110731, Lng: -70.6120708",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-4": {
+        "props": {
+            "text": "###### MALL PLAZA VESPUCIO",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-4": {
+        "props": {
+            "text": "Av. Vicuña Mackenna Oriente 7100. Local 29\nSantiago / METROPOLITANA\n225807660\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.5200815, Lng: -70.6020567",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-5": {
+        "props": {
+            "text": "###### MERCED",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-5": {
+        "props": {
+            "text": "Merced 814\nSantiago / METROPOLITANA\n225966370\nventas@intersalon.cl\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4383608, Lng: -70.6508092",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-6": {
+        "props": {
+            "text": "###### EL FARO",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-6": {
+        "props": {
+            "text": "Av. Apoquindo 6067. Local 10\nLas Condes / METROPOLITANA\n222460971\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4093636, Lng: -70.5699625",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-7": {
+        "props": {
+            "text": "###### MALL PLAZA LOS DOMINICOS",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-7": {
+        "props": {
+            "text": "Av. Padre Hurtado Sur # 875 Local 2048\nLas Condes / METROPOLITANA\n232399775\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4155302, Lng: -70.5424405",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-8": {
+        "props": {
+            "text": "###### MALL ALTO LAS CONDES",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-8": {
+        "props": {
+            "text": "Av. Kennedy 9001. Local 3280\nLas Condes / METROPOLITANA\n222131387\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.3908788, Lng: -70.54839",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-9": {
+        "props": {
+            "text": "###### MALL PARQUE ARAUCO",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-9": {
+        "props": {
+            "text": "Av. Kennedy 5413. Local 505 A\nLas Condes / METROPOLITANA\n232207425\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4021889, Lng: -70.5804381",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-10": {
+        "props": {
+            "text": "###### ESPACIO URBANO LA DEHESA",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-10": {
+        "props": {
+            "text": "Av. El Rodeo 12850 Piso 1. Local 48\nLo Barnechea / METROPOLITANA\n229555583\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.3523124, Lng: -70.5229653",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-11": {
+        "props": {
+            "text": "###### MALL PORTAL LA DEHESA",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-11": {
+        "props": {
+            "text": "Av. La Dehesa 1445. Local 2017\nLo Barnechea / METROPOLITANA\n222162886\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.3575751, Lng: -70.5174551",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-12": {
+        "props": {
+            "text": "###### MALL ARAUCO MAIPÚ",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-12": {
+        "props": {
+            "text": "Av. Américo Vespucio 399. Local 644\nMaipú / METROPOLITANA\n225340363\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4813493, Lng: -70.7540419",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-13": {
+        "props": {
+            "text": "###### MONUMENTO",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-13": {
+        "props": {
+            "text": "Monumento 1913\nMaipú / METROPOLITANA\n225962408\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.5101154, Lng: -70.7606113",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-14": {
+        "props": {
+            "text": "###### MALL PLAZA EGAÑA",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-14": {
+        "props": {
+            "text": "Av. Larrain 5862. Local 2052\nLa Reina / METROPOLITANA\n228306027\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4524332, Lng: -70.5716591",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-15": {
+        "props": {
+            "text": "###### MALL PASEO QUILIN",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-15": {
+        "props": {
+            "text": "Av. Américo Vespucio 3300. Local 1035\nPeñalolen / METROPOLITANA\n229470083\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4878024, Lng: -70.5798096",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-16": {
+        "props": {
+            "text": "###### MALL COSTANERA CENTER",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-16": {
+        "props": {
+            "text": "AV. ANDRES BELLO 2447\nProvidencia / METROPOLITANA\n226189646\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4178028, Lng:-70.609995",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-17": {
+        "props": {
+            "text": "###### MALL PLAZA TOBALABA",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-17": {
+        "props": {
+            "text": "Av. Camilo Henríquez 3692. Local 138 A - 124 A\nPuente Alto / METROPOLITANA\n225860612\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.5694581, Lng: -70.5589516",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-18": {
+        "props": {
+            "text": "###### MALL PLAZA SUR",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-18": {
+        "props": {
+            "text": "Av. Jorge Alessandri 20030. Local B, 1048\nSan Bernardo / METROPOLITANA\n\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.6316593, Lng: -70.71255",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-19": {
+        "props": {
+            "text": "###### ESPACIO URBANO GRAN AVENIDA",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-19": {
+        "props": {
+            "text": "Av. José Miguel Carrera 6150. Local 1128\nSan Miguel / METROPOLITANA\n227977200\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.511795, Lng: -70.6591036",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-20": {
+        "props": {
+            "text": "###### MALL PLAZA NORTE",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-20": {
+        "props": {
+            "text": "Av. Américo Vespucio 1737. Local 1165\nHuechuraba / METROPOLITANA\n225807828\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.3660125, Lng: -70.6787514",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-21": {
+        "props": {
+            "text": "###### HUÉRFANOS",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-21": {
+        "props": {
+            "text": "Huérfanos 819\nSantiago / METROPOLITANA\n225966378\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4393561, Lng: -70.6506814",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-22": {
+        "props": {
+            "text": "###### SAN ANTONIO",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-22": {
+        "props": {
+            "text": "SAN ANTONIO 430\nSantiago / METROPOLITANA\n225966372\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.437789, Lng: -70.6507186",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-23": {
+        "props": {
+            "text": "###### IRARRÁZAVAL",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-23": {
+        "props": {
+            "text": "Irarrázaval 2718\nÑuñoa / METROPOLITANA\n222099658\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4542528, Lng: -70.6048669",
+            "blockClass": "info-tiendas"
+        }
+    },
+    "rich-text#nombre-stgo-24": {
+        "props": {
+            "text": "###### MALL PORTAL ÑUÑOA",
+             "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-stgo-24": {
+        "props": {
+            "text": "Av. José Pedro Alessandri 1166. Local 2060\nÑuñoa / METROPOLITANA\n228982366\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -33.4653035, Lng: -70.5976179",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "tab-content.item#tiendas2": {
+        "children": [
+            "flex-layout.row#tienda1"
+        ],
+        "props": {
+            "tabId": "tiendas2"
+        }
+    },
+    "flex-layout.row#tienda1":{
+        "children": [
+            "flex-layout.col#detalle-tienda1"
+        ]
+    },
+    "flex-layout.col#detalle-tienda1":{
+        "children": [
+            "rich-text#nombre-tienda-1",
+            "rich-text#info-tienda-1",
+            "product-separator",
+            "rich-text#nombre-tienda-2",
+            "rich-text#info-tienda-2",
+            "product-separator",
+            "rich-text#nombre-tienda-3",
+            "rich-text#info-tienda-3",
+            "product-separator",
+            "rich-text#nombre-tienda-4",
+            "rich-text#info-tienda-4",
+            "product-separator",
+            "rich-text#nombre-tienda-5",
+            "rich-text#info-tienda-5",
+            "product-separator",
+            "rich-text#nombre-tienda-6",
+            "rich-text#info-tienda-6",
+            "product-separator",
+            "rich-text#nombre-tienda-7",
+            "rich-text#info-tienda-7",
+            "product-separator",
+            "rich-text#nombre-tienda-8",
+            "rich-text#info-tienda-8",
+            "product-separator",
+            "rich-text#nombre-tienda-9",
+            "rich-text#info-tienda-9",
+            "product-separator",
+            "rich-text#nombre-tienda-10",
+            "rich-text#info-tienda-10",
+            "product-separator",
+            "rich-text#nombre-tienda-11",
+            "rich-text#info-tienda-11",
+            "product-separator"
+        ]
+    },
+    "rich-text#nombre-tienda-1": {
+        "props": {
+            "text": "###### MALL PLAZA ANTOFAGASTA",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-1": {
+        "props": {
+            "text": "Av. Balmaceda 2355, Local 152\nANTOFAGASTA / ANTOFAGASTA\n552533421\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -23.645355, Lng: -70.402651",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "rich-text#nombre-tienda-2": {
+        "props": {
+            "text": "###### MALL PLAZA CALAMA",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-2": {
+        "props": {
+            "text": "Av. Balmaceda 3242, Local 184 B\nCALAMA / ANTOFAGASTA\n552717308\nservicioalclientechile@sallybeauty.com\nLunes a Viernes: 10:00 hrs a 20:00 hrs\nCoordenadas: Lat: -22.4497352, Lng: -68.92372",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "rich-text#nombre-tienda-3": {
+        "props": {
+            "text": "###### MALL PLAZA COPIAPO",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-3": {
+        "props": {
+            "text": "Calle Maipú 0110, Local a 1141 - a 1145A\nCOPIAPÓ / ATACAMA\n552533421\nservicioalclientechile@sallybeauty.com\nLunes a Viernes: 10:00 hrs a 20:00 hrs\nCoordenadas: Lat: -27.3704854, Lng: -70.3413831",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "rich-text#nombre-tienda-4": {
+        "props": {
+            "text": "###### MALL PLAZA IQUIQUE",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-4": {
+        "props": {
+            "text": "Av. Los Heroes de la Concepción 2555, Local 128-130\nIQUIQUE / TARAPACÁ\n572561717\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -20.2327233, Lng: -70.1449784",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "rich-text#nombre-tienda-5": {
+        "props": {
+            "text": "###### LA SERENA",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-5": {
+        "props": {
+            "text": "Guillermo Ulriksen 3128, Local 6\nLA SERENA / COQUIMBO\n512666708\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -29.9420762, Lng: -71.2428566",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "rich-text#nombre-tienda-6": {
+        "props": {
+            "text": "###### MALL PLAZA LA SERENA",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-6": {
+        "props": {
+            "text": "Av. Alberto Solari 1400, Local L-120 Nivel\nLA SERENA / COQUIMBO\n512471699\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -29.9125759, Lng: -71.2604689",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "rich-text#nombre-tienda-7": {
+        "props": {
+            "text": "###### MALL PLAZA LOS ANGELES",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-7": {
+        "props": {
+            "text": "Valdivia 440, Local 301\nLOS ÁNGELES / BÍO BIO\n432451332\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -37.4683329, Lng: -72.3549975",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "rich-text#nombre-tienda-8": {
+        "props": {
+            "text": "###### MALL PLAZA TRÉBOL",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-8": {
+        "props": {
+            "text": "Av. Jorge Alessandri 3177, Local 116-B\nConcepción / BIO BIO\n412563725\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -36.7803841, Lng: -73.0585483",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "rich-text#nombre-tienda-9": {
+        "props": {
+            "text": "###### MALL PLAZA BÍO BIO",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-9": {
+        "props": {
+            "text": "Los Carrera Poniente 301, Local A 1041-1045\nCONCEPCIÓN / BÍO BIO\n413214377\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -36.8251755, Lng: -73.0591383",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "rich-text#nombre-tienda-10": {
+        "props": {
+            "text": "###### PORTAL TEMUCO",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-10": {
+        "props": {
+            "text": "Av. Alemania 671, Local 1069\nTEMUCO / LA ARAUCANÍA\n452994354\nservicioalclientechile@sallybeauty.com\nCerrado temporalmente por cuarentena\nCoordenadas: Lat: -38.7337188, Lng: -72.612795",
+            "blockClass": "info-tiendas"
+        }
+    },
+
+    "rich-text#nombre-tienda-11": {
+        "props": {
+            "text": "###### MALL PASEO COSTANERA PUERTO MONTT",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#info-tienda-11": {
+        "props": {
+            "text": "Illapel 10, Local 216\nPUERTO MONTT / LOS LAGOS\n652311403\nservicioalclientechile@sallybeauty.com\nLunes a Viernes: 09:00 hrs a 19:30 hrs\nCoordenadas: Lat: -41.4722584, Lng: -72.9386182",
+            "blockClass": "info-tiendas"
+        }
+    }
+}

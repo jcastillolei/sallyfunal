@@ -1,0 +1,480 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "flex-layout.row#3-desktop",
+      "sticky-layout#4-desktop"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "DESPACHO GRATIS SOBRE $35.000"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#spacer",
+      "login"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://sallybeautyb2b.vtexassets.com/assets/vtex.file-manager-graphql/images/95b2dbe8-0191-4b39-93d6-d2e8b69dbbbc___444529d31ab16f8799d895517bea904f.png",
+      "width": "180"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": ["minicart-summary", "flex-layout.row#btn-coti","minicart-checkout-button"]
+  },
+
+  "flex-layout.row#btn-coti": {
+    "props": {
+      "blockClass": "row-btn-coti"
+    },
+    "children": ["link#crear-cotizacion"]
+  },
+
+  "link#crear-cotizacion": {
+    "props": {
+      "href": "/orderquote/create",
+      "label": "GENERAR COTIZACION",
+      "displayMode": "button",
+      "blockClass": "btn-crear-cotizacion",
+      "buttonProps":{
+        "variant": "primary",
+        "size": "small"
+      }
+    }
+  },
+
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
+  },
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5
+    }
+  },
+  "icon-cart#minicart-empty-state": {
+    "props": {
+      "size": 64,
+      "blockClass": "minicart-empty-state"
+    }
+  },
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "text": "Your cart is empty."
+    }
+  },
+
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#cabellos-mobile",
+      "menu-item#peinados-mobile",
+      "menu-item#coloracion-mobile",
+      "menu-item#electricos-mobile",
+      "menu-item#unas-mobile",
+      "menu-item#maquillaje-mobile",
+      "menu-item#piel-mobile",
+      "menu-item#hombre-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#cabellos-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#cabellos-mobile"
+    ],
+    "props": {
+      "id": "menu-item-cabellos-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "cabello-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "CABELLOS",
+        "text": "CABELLO"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#cabellos-mobile":{
+    "children": [
+      "flex-layout.row#menu-cabellos-mobile"
+    ]
+  },
+  "flex-layout.row#menu-cabellos-mobile":{
+    "children": [
+      "flex-layout.col#menu-cabellos-1"
+    ]
+  },
+
+  "menu-item#peinados-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#peinados-mobile"
+    ],
+    "props": {
+      "id": "menu-item-peinados-mobile",
+      "type": "custom",
+      "blockClass": "peinados-mobile",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "PEINADOS",
+        "text": "STYLING"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#peinados-mobile":{
+    "children": [
+      "flex-layout.row#menu-peinados-mobile"
+    ]
+  },
+  "flex-layout.row#menu-peinados-mobile":{
+    "children": [
+      "flex-layout.col#menu-peinados-1"
+    ]
+  },
+
+  "menu-item#coloracion-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#coloracion-mobile"
+    ],
+    "props": {
+      "id": "menu-item-coloracion-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "coloracion-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "COLORACION",
+        "text": "COLORACIÓN"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#coloracion-mobile":{
+    "children": [
+      "flex-layout.row#menu-coloracion-mobile"
+    ]
+  },
+  "flex-layout.row#menu-coloracion-mobile":{
+    "children": [
+      "flex-layout.col#menu-coloracion-1"
+    ]
+  },
+
+  "menu-item#electricos-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#electricos-mobile"
+    ],
+    "props": {
+      "id": "menu-item-electricos-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "electricos-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ELÉCTRICOS",
+        "text": "ELÉCTRICOS"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:submenu#electricos-mobile":{
+    "children": [
+      "flex-layout.row#menu-eletricos-mobile"
+    ]
+  },
+  "flex-layout.row#menu-eletricos-mobile":{
+    "children": [
+      "flex-layout.col#menu-electricos-1"
+    ]
+  },
+
+  "menu-item#unas-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#unas-mobile"
+    ],
+    "props": {
+      "id": "menu-item-unas-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "unas-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "UÑAS",
+        "text": "UÑAS"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#unas-mobile":{
+    "children": [
+      "flex-layout.row#menu-unas-mobile"
+    ]
+  },
+  "flex-layout.row#menu-unas-mobile":{
+    "children": [
+      "flex-layout.col#menu-unas-1"
+    ]
+  },
+
+  "menu-item#maquillaje-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#maquillajes-mobile"
+    ],
+    "props": {
+      "id": "menu-item-maquillaje-mobile",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "maquillaje-mobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MAQUILLAJE",
+        "text": "MAQUILLAJE"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:submenu#maquillajes-mobile":{
+    "children": [
+      "flex-layout.row#menu-maquillaje-mobile"
+    ]
+  },
+  "flex-layout.row#menu-maquillaje-mobile":{
+    "children": [
+      "flex-layout.col#menu-maquillaje-1"
+    ]
+  },
+
+  "menu-item#piel-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#piel-mobile"
+    ],
+    "props": {
+      "id": "menu-item-piel-mobile",
+      "type": "custom",
+      "blockClass": "piel-mobile",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "PIEL",
+        "text": "PIEL"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#piel-mobile":{
+    "children": [
+      "flex-layout.row#menu-piel-mobile"
+    ]
+  },
+  "flex-layout.row#menu-piel-mobile":{
+    "children": [
+      "flex-layout.col#menu-piel-1"
+    ]
+  },
+
+  "menu-item#hombre-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#hombre-mobile"
+    ],
+    "props": {
+      "id": "menu-item-hombre-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "hombre-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "HOMBRE",
+        "text": "HOMBRE"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#hombre-mobile":{
+    "children": [
+      "flex-layout.row#menu-hombre-mobile"
+    ]
+  },
+  "flex-layout.row#menu-hombre-mobile":{
+    "children": [
+      "flex-layout.col#menu-hombre-1"
+    ]
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://sallybeautyb2b.vtexassets.com/assets/vtex.file-manager-graphql/images/95b2dbe8-0191-4b39-93d6-d2e8b69dbbbc___444529d31ab16f8799d895517bea904f.png",
+      "width": "120"
+    }
+  }
+}

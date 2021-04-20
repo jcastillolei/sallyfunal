@@ -1,0 +1,305 @@
+{
+  "vtex.menu@2.x:menu#row1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+
+      "menu-item#quienessomos",
+      "menu-item#politicascomerciales",
+      "menu-item#cambiosydevoluciones"
+    ]
+  },
+  "flex-layout.row#imagen-footer": {
+    "children": ["image#logo-footer"]
+  },
+  "image#logo-footer": {
+    "props": {
+      "src": "https://sallybeautyb2b.vteximg.com.br/arquivos/Logo-Sally-New-2.png",
+      "maxHeight": 15
+    }
+  },
+  "menu-item#quienessomos": {
+    "props": {
+      "id": "menu-item-quienes-somos-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobrenosotros",
+        "noFollow": false,
+        "tagTitle": "QUIÉNES SOMOS",
+        "text": "QUIÉNES SOMOS"
+      }
+    }
+  },
+  "menu-item#politicascomerciales": {
+    "props": {
+      "id": "menu-item-politicas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicascomerciales",
+        "noFollow": false,
+        "tagTitle": "POLITICAS COMERCIALES",
+        "text": "POLÍTICAS COMERCIALES"
+      }
+    }
+  },
+  "menu-item#cambiosydevoluciones": {
+    "props": {
+      "id": "menu-item-cambios-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cambiosydevoluciones",
+        "noFollow": false,
+        "tagTitle": "CAMBIOS Y DEVOLUCIONES",
+        "text": "CAMBIOS Y DEVOLUCIONES"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#row2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#terminos-footer",
+      "menu-item#trabaja-footer",
+      "menu-item#tiendas-footer"
+    ]
+  },
+
+  "menu-item#terminos-footer": {
+    "props": {
+      "id": "menu-item-terminos-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminosycondiciones",
+        "noFollow": true,
+        "tagTitle": "TÉRMINOS",
+        "text": "TÉRMINOS"
+      }
+    }
+  },
+
+  "menu-item#trabaja-footer": {
+    "props": {
+      "id": "menu-item-trabaja-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabaja-con-nosotros",
+        "noFollow": true,
+        "tagTitle": "TRABAJA",
+        "text": "TRABAJA CON NOSOTROS"
+      }
+    }
+  },
+
+  "menu-item#tiendas-footer": {
+    "props": {
+      "id": "menu-item-tiendas-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas",
+        "noFollow": true,
+        "tagTitle": "TIENDAS",
+        "text": "TIENDAS"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#row3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#correo-footer",
+      "menu-item#preguntas-footer"
+    ]
+  },
+
+  "menu-item#correo-footer": {
+    "props": {
+      "id": "menu-item-correo-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "B2BCHILE@SALLYBEAUTY.COM",
+        "text": "B2BCHILE@SALLYBEAUTY.COM"
+      }    
+    }
+  },
+
+  "menu-item#preguntas-footer": {
+    "props": {
+      "id": "menu-item-preguntas-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "PREGUNTAS FRECUENTES",
+        "text": "PREGUNTAS FRECUENTES"
+      }
+    }
+  },
+
+  "menu-item#necessaire": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Necessaire",
+        "text": "Necessaire"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#row4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#cabellos",
+      "menu-item#peinados",
+      "menu-item#coloracion",
+      "menu-item#electricos",
+      "menu-item#unas",
+      "menu-item#maquillaje",
+      "menu-item#piel",
+      "menu-item#hombre"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#imagen-footer-mobile",
+      "menu-item#quienessomos-mobile",
+      "menu-item#terminos-mobile",
+      "menu-item#privacidad-mobile",
+      "menu-item#cambios-mobile",
+      "menu-item#trabaja-mobile",
+      "menu-item#tiendas-mobile",
+      "menu-item#faq-mobile"
+    ]
+  },
+  "flex-layout.row#imagen-footer-mobile": {
+    "children": ["image#logo-footer-mobile"]
+  },
+  "image#logo-footer-mobile": {
+    "props": {
+      "src": "https://sallybeautyb2b.vteximg.com.br/arquivos/Logo-Sally-New-2.png",
+      "maxHeight": 15,
+      "blockClass": "logo-footer-mobile"
+    }
+  },
+  "menu-item#quienessomos-mobile": {
+    "props": {
+      "id": "menu-item-quienessomos-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobrenosotros",
+        "noFollow": true,
+        "tagTitle": "QUIÉNES SOMOS",
+        "text": "QUIÉNES SOMOS"
+      }
+    }
+  },
+
+  "menu-item#terminos-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminosycondiciones",
+        "noFollow": true,
+        "tagTitle": "TÉRMINOS",
+        "text": "TÉRMINOS"
+      }
+    }
+  },
+  "menu-item#cambios-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/cambiosydevoluciones",
+        "noFollow": true,
+        "tagTitle": "CAMBIOS Y DEVOLUCIONES",
+        "text": "CAMBIOS Y DEVOLUCIONES"
+      }
+    }
+  },
+  "menu-item#privacidad-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "PRIVACIDAD",
+        "text": "PRIVACIDAD"
+      }
+    }
+  },
+
+  "menu-item#faq-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "PREGUNTAS FRECUENTES",
+        "text": "PREGUNTAS FRECUENTES"
+      }
+    }
+  },
+  "menu-item#tiendas-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas",
+        "noFollow": true,
+        "tagTitle": "TIENDAS",
+        "text": "TIENDAS"
+      }
+    }
+  },
+  "menu-item#trabaja-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabaja-con-nosotros",
+        "noFollow": true,
+        "tagTitle": "TRABAJA",
+        "text": "TRABAJA CON NOSOTROS"
+      }
+    }
+  }
+}

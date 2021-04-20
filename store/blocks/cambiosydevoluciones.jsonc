@@ -1,0 +1,93 @@
+{
+    "store.custom#cambiosydevoluciones": {
+      "blocks": [
+        "rich-text#titulo-cambios",
+        "flex-layout.row#cambiosydevoluciones",
+        "newsletter",
+        "flex-layout.row#deals"
+      ]
+    },
+    "rich-text#titulo-cambios": {
+        "props": {
+            "text": "#### POLÍTICA DE CAMBIOS Y DEVOLUCIONES",
+            "blockClass": "titulo-sobre"
+        }
+    },
+
+    "flex-layout.row#cambiosydevoluciones": {
+        "props": {
+          "blockClass": "cambiosydevoluciones"
+        },
+        "children": [
+            "flex-layout.col#texto-cambios"
+        ]
+    },
+    
+    "flex-layout.col#texto-cambios": {
+        "children": [
+            "rich-text#titulo-camb-primero",
+            "rich-text#cambio-primero",
+            "product-separator",
+            "rich-text#titulo-camb-segundo",
+            "rich-text#cambio-segundo",
+            "product-separator",
+            "rich-text#titulo-camb-tercero",
+            "rich-text#cambio-tercero",
+            "product-separator",
+            "rich-text#titulo-camb-cuarto",
+            "rich-text#cambio-cuarto"
+        ]
+    },
+
+    "rich-text#titulo-camb-primero": {
+        "props": {
+            "text": "###### 1. Condiciones para Cambio",
+            "blockClass": "titulo-cambio-numero"
+        }
+    },
+    "rich-text#cambio-primero": {
+        "props": {
+            "text": "Para brindarte una mejor experiencia de compra Sally Beauty ofrece la posibilidad de cambiar el producto dentro de los 30 días posteriores a la fecha de compra. Para ello debes presentar la boleta (o ticket de cambio) respectivo y cumplir con lo siguiente:\n\n(i) Restituir el producto en buen estado, sin uso, sellado, con sus etiquetas, embalaje y accesorios originales y en perfectas condiciones.\n\n(ii) Que el producto no se encuentre expresamente exceptuado, por ser producto de uso personal. Son productos de uso personal los siguientes:\n\n - Tijeras\n\n - Esmaltes de Uñas\n\n - Pinzas\n\n - Cepillos\n\n - Peinetas\n\n - Limas\n\n - Corta cutìculas Corta Uñas\n\n - Brochas de Maquillaje\n\n - Maquillaje\n\n - Pestañas Postizas",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-camb-segundo": {
+        "props": {
+            "text": "###### 2. Garantía Voluntaria",
+            "blockClass": "titulo-cambio-numero"
+        }
+    },
+    "rich-text#cambio-segundo": {
+        "props": {
+            "text": "Si no te gustó el producto, la garantía voluntaria de Sally Beauty te permite realizar cambios o devoluciones en un plazo de 10 días desde la fecha de compra del producto. Para hacer uso de ella, debes presentar la boleta o ticket de cambio y cumplir con las condiciones de cambio indicadas precedentemente.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-camb-tercero": {
+        "props": {
+            "text": "###### 3. Garantía Legal y Beneficios Ofrecidos por el Fabricante",
+            "blockClass": "titulo-cambio-numero"
+        }
+    },
+    "rich-text#cambio-tercero": {
+        "props": {
+            "text": "Para hacer uso de la Garantía Legal, en caso de falla o defecto del producto se debe solicitar el cambio, devolución o reparación gratuita del producto dentro de los 3 meses posteriores a la compra según la fecha de la boleta o el ticket de cambio respectivo, siempre que el producto no se hubiere deteriorado por un hecho imputable al consumidor (Art 21, Ley 19.496). Si el producto cuenta con una garantía del fabricante, se aplicará el plazo de esa garantía si dicho plazo fuera mayor. Todos estos plazos se suspenderán por el plazo en que el bien esté siendo reparado en ejercicio de su garantía, y hasta que se complete su reparación. Además, debes presentar la boleta o ticket de cambio y tener los embalajes originales, accesorios, manuales y pólizas de garantía.\n\nSe considerará que hay falla o defecto: a) Si los productos sujetos a normas de seguridad o calidad de cumplimiento obligatorio no cumplan las especificaciones correspondientes; b) Cuando los materiales, partes, piezas, elementos, sustancias o ingredientes que constituyan o integren los productos no correspondan a las especificaciones que ostenten o las menciones del rotulado: c) Cuando cualquier producto, por deficiencias de fabricación, elaboración, materiales, partes, piezas, elementos, sustancias, ingredientes, estructura, calidad o condiciones sanitarias, en su caso, no sea enteramente apto para el uso o consumo al que está destinado o al que el proveedor hubiese señalado en su publicidad; d) Cuando el proveedor y consumidor hubieren convenido que los productos objeto del contrato deban reunir determinadas especificaciones y esto no ocurra; e) Cuando después de la primera vez de haberse hecho efectiva la garantía y prestado el servicio técnico correspondiente, subsistieren las deficiencias que hagan al bien inapto para el uso o consumo a que se refiere la letra c). Este derecho subsistirá para el evento de presentarse una deficiencia distinta a la que fue objeto del servicio técnico, o volviere a presentarse la misma, dentro de los plazos legales; f) Cuando la cosa objeto del contrato tenga defectos o vicios ocultos que imposibiliten el uso a que habitualmente se destine. Para estos efectos se considerará que es un solo bien aquel que se ha vendido como un todo, aunque este conformado por distintas unidades, partes o piezas o módulos, no obstante que éstas puedan o no prestar una utilidad en forma independiente unas de otras. Sin perjuicio de ello, tratándose de su reposición, ésta se podrá efectuar respecto de una unidad, parte, pieza o módulo, siempre que sea por otra igual a la que se restituye.",
+            "blockClass": "textColumn"
+        }
+    },
+
+    "rich-text#titulo-camb-cuarto": {
+        "props": {
+            "text": "###### 4. Reembolso",
+            "blockClass": "titulo-cambio-numero"
+        }
+    },
+    "rich-text#cambio-cuarto": {
+        "props": {
+            "text": "La forma como se realiza el reembolso dependerá de la forma de pago. Si el pago se ha efectuado con Tarjeta de Crédito te devolvemos el dinero al mismo medio de pago. Si pagaste con Redcompra o dinero en efectivo recibirás el dinero en efectivo inmediatamente.",
+            "blockClass": "textColumn"
+        }
+    }
+}

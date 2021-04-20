@@ -1,0 +1,288 @@
+{
+  "store.custom#profesionalesform": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "blocks": [
+      "flex-layout.row#formProfesionales",
+      "flex-layout.row#formProfesionalesBajo"
+    ]
+  },
+
+  "flex-layout.row#formProfesionalesBajo": {
+    "children": [
+      "flex-layout.col#tituloPieForm"
+      
+    ],
+    "props":{
+      "blockClass": "login-texto-cuadro-inferior"
+    }
+  },
+  "flex-layout.col#tituloPieForm": {
+    "children": [
+      "rich-text#titulo-cotizacion-prof",
+      "rich-text#subtitulo-cotizacion-prof",
+      "flex-layout.row#textoPieProfesionales",
+      "product-separator"
+    ],
+    "props": {
+        "marginLeft": 40,
+        "blockClass": "login-form-tituo-pie"
+     }
+  },
+  "rich-text#titulo-cotizacion-prof": {
+    "props": {
+      "text": "Las mejores marcas, al alcance de todos!",
+      "blockClass": "rich-titulo-prof-pie"
+    }
+  },
+  "rich-text#subtitulo-cotizacion-prof": {
+    "props": {
+      "text": "El mayor surtido de Productos profesionales de las mejores marcas",
+      "blockClass": "rich-subtitulo-prof-pie"
+    }
+  },
+
+  "flex-layout.row#textoPieProfesionales": {
+    "children": [
+      "flex-layout.col#textPieFormLeft",
+      "flex-layout.col#textPieFormRight"
+    ],
+    "props":{
+      "blockClass": "login-form-pie"
+    }
+  },
+  "flex-layout.col#textPieFormLeft": {
+    "children": [
+      "rich-text#titulo-envios-todo",
+      "rich-text#despachamos-texto",
+      "rich-text#titulo-beneficios-exclusi",
+      "rich-text#beneficios-texto",
+      "rich-text#tienes-dudas-texto"
+    ],
+    "props": {
+        "marginLeft": 40,
+        "blockClass": "login-pie-left"
+     }
+  },
+
+  "rich-text#titulo-envios-todo": {
+    "props": {
+      "text": "Envíos a todo Chile",
+      "blockClass": "rich-subtitulo-pequeño"
+    }
+  },
+  "rich-text#despachamos-texto": {
+    "props": {
+      "text": "- Despachamos a todo el país, Región Metropolitana en 48hs.",
+      "blockClass": "rich-texto-pequeño"
+    }
+  },
+  "rich-text#titulo-beneficios-exclusi": {
+    "props": {
+      "text": "Beneficios Exclusivox",
+      "blockClass": "rich-subtitulo-pequeño"
+    }
+  },
+  "rich-text#beneficios-texto": {
+    "props": {
+      "text": "- Siendo parte de Sally Beauty Profesional recibirás las mejores ofertas, \n descuentos, capacitaciones y otros beneficios exclusivos.",
+      "blockClass": "rich-texto-pequeño"
+    }
+  },
+  "rich-text#tienes-dudas-texto": {
+    "props": {
+      "text": "¿TIENES DUDAS? CONTÁCTANOS A profesional@sallybeauty.com",
+      "blockClass": "rich-texto-pequeño"
+    }
+  },
+
+  
+  "flex-layout.col#textPieFormRight": {
+    "children": [
+      "rich-text#titulo-como",
+      "rich-text#registrate-texto",
+      "rich-text#titulo-completa-form",
+      "rich-text#48hs-texto"
+    ],
+    "props": {
+        "marginLeft": 40,
+        "blockClass": "login-pie-right"
+     }
+  },
+  "rich-text#titulo-como": {
+    "props": {
+      "text": "¿Como Inscribirme?",
+      "blockClass": "rich-subtitulo-proff"
+    }
+  },
+  "rich-text#registrate-texto": {
+    "props": {
+      "text": "- Regístrate para acceder al portal de SallyBeuaty Profesional y acceder a los mejores beneficios.",
+      "blockClass": "rich-texto-pequeño"
+    }
+  },
+  "rich-text#titulo-completa-form": {
+    "props": {
+      "text": "- Completa el formulario.",
+      "blockClass": "rich-texto-pequeño"
+    }
+  },
+  "rich-text#48hs-texto": {
+    "props": {
+      "text": "- En 48hs, recibirás tu usuario y contraseña al mail que registres. \n Si tienes dudas puedes contactarte al mail profesional@sallybeauty.com",
+      "blockClass": "rich-texto-pequeño"
+    }
+  },
+
+  "flex-layout.row#formProfesionales": {
+    "children": [
+      "flex-layout.col#textformProf",
+      "flex-layout.col#formProf"
+    ],
+    "props":{
+      "blockClass": "login-form"
+    }
+  },
+  "flex-layout.col#textformProf": {
+    "children": [
+        "flex-layout.row#texto-form"
+    ],
+    "props": {
+        "width": "50%",
+        "marginLeft": 40,
+        "blockClass": "login-form-left"
+     }
+  },
+  "flex-layout.col#formProf": {
+    "children": [
+      "form#prof"
+      
+    ],
+    "props": {
+      "width": "50%",
+      "blockClass": "form-register"
+    }
+  },
+  "form#prof2": {
+    "props": {
+      "entity": "Profesionales",
+      "schema": "Profesionales"
+    }
+  },
+
+  "form#prof": {
+    "props": {
+      "entity": "PF",
+      "schema": "Profesionales"
+    },
+    "children": [
+      "form-input.text#antiguedad",
+      "form-input.text#profesion",
+      "form-input.text#email",
+      "form-input.text#telefono",
+      "form-input.text#nombre",
+      "form-input.text#apellido",
+      "form-input.text#rut",
+      "rich-text#texto-enviar-formulario",
+      "form-submit"
+    ],
+    "blocks": ["form-success"]
+  },
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Muchas gracias por tu inscripción, nos pondremos en contacto contigo a la brevedad. \nNo te olvides de enviarnos tu certificado de profesional por correo ( correo )",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.text#antiguedad": {
+    "props": {
+      "pointer": "#/properties/antiguedad"
+    }
+  },
+  "form-input.text#profesion": {
+    "props": {
+      "pointer": "#/properties/profesion"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.text#telefono": {
+    "props": {
+      "pointer": "#/properties/telefono"
+    }
+  },
+  "form-input.text#nombre": {
+    "props": {
+      "pointer": "#/properties/nombre"
+    }
+  },
+  "form-input.text#apellido": {
+    "props": {
+      "pointer": "#/properties/apellido"
+    }
+  },
+  "form-input.text#rut": {
+    "props": {
+      "pointer": "#/properties/rut"
+    }
+  },
+  "form-input.upload#adjunto": {
+    "props": {
+      "pointer": "#/properties/rut",
+      "accept": ".doc, .png"
+    }
+  },
+  "form-submit": {
+    "props": {
+      "label": "Submit"
+    }
+  },
+  
+
+  "rich-text#texto-enviar-formulario": {
+    "props": {
+      "text": "Para completar tu solicitud de registro debes enviarnos tus certificados y/o acreditaciones al siguiente correo: B2BCHILE@SALLYBEAUTY.COM",
+      "blockClass": "texto-prof-formula"
+    }
+  },
+
+  
+  "flex-layout.row#texto-form": {
+    "children": [
+      "flex-layout.col#text-login-left"
+    ]
+  },
+  "flex-layout.col#text-login-left": {
+    "children": [
+      "rich-text#title-login",
+      "rich-text#content-login"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-login": {
+    "props":{
+      "text": "Bienvenido a SallyBeautyB2B",
+      "font": "t-heading-1",
+      "blockClass": "title-text-login"
+    }
+  }, 
+  "rich-text#content-login": {
+    "props": {
+      "text": "Únete a SALLY BEAUTY PROFESIONAL y disfruta de todos los beneficios que tenemos para ti.\nEl mayor surtido de productos profesionales de las mejores marcas.\n\nENVÍOS A TODO CHILE\n\nDespachamos a todo el país, Región Metropolitana en 48hs.\n\nBENEFICIOS EXCLUSIVOS\n\nSiendo parte de SALLY BEAUTY PROFESIONAL recibirás las mejores ofertas, descuentos, capacitaciones y otros beneficios exclusivos.",
+      "blockClass": "content-login-left"
+    }
+  }
+}

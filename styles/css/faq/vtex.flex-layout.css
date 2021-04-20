@@ -1,0 +1,11 @@
+.flexRowContent--faq {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flexRowContent--faq
+:global(.vtex-disclosure-layout-1-x-content--answer)
+:global(.vtex-rich-text-0-x-paragraph){
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 100;
+}

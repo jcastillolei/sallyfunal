@@ -1,0 +1,59 @@
+{
+  "store.custom#trabajaconnosotros": {
+    "blocks": [
+      "flex-layout.row#trabaja-con",
+      "newsletter",
+      "flex-layout.row#deals"
+    ]
+  },
+
+  "flex-layout.row#trabaja-con": {
+    "children": [
+      "image#trabaja-con-nosotros",
+      "flex-layout.col#text-trabaja-con"
+    ], 
+    "props":{
+      "marginTop": 5
+    }
+  },
+  "image#trabaja-con-nosotros": {
+    "props": {
+      "src": "https://www.sallybeauty.cl/arquivos/UNETEALEQUIPO1-min.jpg?v=637479713053370000",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "img-trabaja"
+    }
+  },
+  "flex-layout.col#text-trabaja-con": {
+    "children": [
+      "rich-text#trabaja-con",
+      "image#logo-trabaja",
+      "rich-text#txt-trabaja"
+    ],
+    "props": {
+      "blockClass": "textColumn-trabaja",
+      "preventVerticalStretch": true,
+      "width": "60%"
+    }
+  },
+  "rich-text#trabaja-con": {
+    "props": {
+      "text": "##### ¡TU ERES EL TALENTO QUE BUSCAMOS!",
+      "blockClass": "titulo-trabaja" 
+    }
+  },
+
+  "image#logo-trabaja":{
+      "props":{
+        "src": "https://sallybeautyb2b.vtexassets.com/arquivos/Logo-Sally-New-2.png",
+        "maxWidth": "50%",
+        "blockClass": "img-trabaja"
+      }
+  },
+  "rich-text#txt-trabaja": {
+    "props": {
+      "text": "**Te Ofrecemos:**\n\nSer parte de una empresa líder en el Mercado de la Belleza Profesional\nSueldo según logro de objetivos\nDescuentos en Productos\nPlan de Capacitación a cargo de Expertos\nHorario y lugar de trabajo a coordinar conjuntamente\nEnvíanos tu CV a seleccionchile@sallybeauty.com",
+      "blockClass": "txt-trabaja"
+    }
+  }
+}
